@@ -16,7 +16,6 @@ class Certificate extends React.Component {
     });
   }
   render() {
-    console.log(certificates);
     return (
       <div className="page certificate-page" id="certificate-page">
         <div className="page-header">

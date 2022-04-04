@@ -15,25 +15,25 @@
     .left-header{
       margin: 2rem 0 2rem 0;
       h1{
-        font-size: 3.5rem;
+        font-size: 2rem;
         width: 100%;
         margin: 0;
       }
     }
 
     h3 {
-      font-size: 2.5rem;
+      font-size: 1.5rem;
      
     }
     p {
       text-indent: 2rem;
       // margin: 2rem 0;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
     ol{
       display: flex;
       justify-content: center;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
   }
   .right {
@@ -51,20 +51,7 @@
   }
 }
 
-// @media screen and (max-width: 1050px) {
-//   .about-page {
-//     .left {
-//       padding: 2rem 2rem;
-//     }
-//     .right {
-//       img {
-//         width:100%;
-//         // width: 25vw;
-//         margin: 3em auto;
-//       }
-//     }
-//   }
-// }
+
 
 @media screen and (max-width: 1050px) {
   .about-page {

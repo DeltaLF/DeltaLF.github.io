@@ -44,7 +44,7 @@ const experience = [
     title: "Self-taught web developer",
     icon: "fab fa-js",
     jobDesc:
-      "I take several Udemy web developer classes in my free time, and now I have finished 5 courses. Besides, there are some more classes undergoing. I also deploy 3 websites based on the knowledge I acquired.",
+      "I take several Udemy web developer classes in my free time, and now I have finished 5 courses. Besides, some more classes are still undergoing. I also deploy 3 websites based on the knowledge I acquired.",
     skillList: ["javascript", "react", "html", "css"],
   },
   {
@@ -52,15 +52,15 @@ const experience = [
     title: "Anti-Virus Analyst ",
     icon: "fab fa-python",
     jobDesc:
-      "As an AV Analyst I am mainly responsible for analyzing malicious samples with static, dynamical approach and building corresponding signature files to detect those new virus mutations. Also, I conduct a side project to build a pipeline to automatically generate dynamical analysis report based on python Airflow, and Cuckoo sandbox (an open source automated malware analysis). With the reports, I then extract features from them and use python sklearn package to train a classifier which can help analysts to pre-classify unknown samples to optimized our work flow.",
+      "As an AV Analyst, I am mainly responsible for analyzing malicious samples with static, dynamics approaching and building corresponding signature files to detect those new virus mutations. Also, I conduct a side project to build a pipeline to automatically generate dynamical analysis reports based on python Airflow, and Cuckoo sandbox (an open-source automated malware analysis). With the reports, I then extract features from them and use python sklearn package to train a classifier which can help analysts pre-classify unknown samples to optimize our workflow. ",
     skillList: ["python", "airflow"],
   },
 ];
 
 const aboutPage = {
   aboutMe: [
-    "I am currently an anti-virus analyst who is responsible for reading and analyzing other people’s code. During this process I gradually realize that what I want is more than just watching. I also want to create something (of course not malicious things) so I start to take online courses from Udemy and now I am able to build website with MERN stack. I found joy and sense of achievement in learning and building website. ",
-    " In my free time I love to go outdoor. Hiking, swimming, biking are all included. Maybe I just like to move it!",
+    "I am currently an anti-virus analyst who is responsible for reading and analyzing other people’s code. During this process I gradually realize that what I want is more than just watching. I also want to create something (of course not malicious things) so I start to take online courses from Udemy and now I am able to build website with MERN stack. I found joy and sense of achievement in learning and building website.",
+    "In my free time I love to go outdoor. Hiking, swimming, biking are all included. Maybe I just like to move it!",
   ],
   portaitPath: portrait,
   softwareSkills: [
@@ -132,14 +132,14 @@ const project = [
     imgPath: project1,
     url: "https://github.com/DeltaLF/online-course",
     projectDesc:
-      "Start from scratch to build a online learning website based on MERN stack (MongoDB, Express, React, NodeJS).  Authentication is implemented by jwt token. You can register an account to create course, subscribe course, put course in shop cart. Also, there is a new students promotion only existing in new user for 5 hours which is implemented by localStorage.",
+      "Start from scratch to build an online learning website based on MERN stack (MongoDB, Express, React, NodeJS). Authentication is implemented by jwt token. You can register an account to create courses, subscribe to courses, and put courses in the shop cart. Also, there is a new students promotion only existing for the new user for 5 hours which is implemented by localStorage.",
   },
   {
     title: "Video Search React project",
     imgPath: project2,
     url: "https://github.com/DeltaLF/video-app",
     projectDesc:
-      "A React front end website that can search youtube videos, wikipedia by making api request. The api request is made through Netlify serverless function to prevent api key being accessed directly.",
+      "A React front-end website that can search youtube videos, and Wikipedia by making an API request. The API request is made through the Netlify serverless function to prevent the API key from being accessed directly.",
   },
 
   {
@@ -147,7 +147,7 @@ const project = [
     imgPath: project3,
     url: "https://github.com/DeltaLF/yelpcamp-",
     projectDesc:
-      "A project modified from The Web Developer Bootcamp. This site is built by node, express, ejs, mongodb atlas and it can be used to create and share camp information. I add some extra features that are passport Google login, review editable, middleware to check login status, user image schema, user able to be deleted.",
+      "A project modified from The Web Developer Bootcamp. This site is built by node, express, ejs, and MongoDB atlas and it can be used to create and share camp information. I add some extra features that are passport Google login, review editable, middleware to check login status, user image schema, and function to delete a user.",
   },
 ];
 
