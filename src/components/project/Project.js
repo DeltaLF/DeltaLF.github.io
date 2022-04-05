@@ -16,7 +16,7 @@ class Project extends React.Component {
             <h2>{title}</h2>
             <div>
               <a href={url} className="card-btn">
-                Go Check
+                Check it
               </a>
             </div>
 
