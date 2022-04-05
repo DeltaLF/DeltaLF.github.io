@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f87f67b4.css",
-    "main.js": "/static/js/main.0660e797.js",
+    "main.css": "/static/css/main.cfbd2e68.css",
+    "main.js": "/static/js/main.bb9e35fd.js",
     "static/media/onlineCourse.jpg": "/static/media/onlineCourse.5f489f11ff3cfab14748.jpg",
     "static/media/me.jpg": "/static/media/me.2bc00e31c954f2b604e8.jpg",
     "static/media/web_dev.jpg": "/static/media/web_dev.12396e72a8061a273c7f.jpg",
@@ -11,13 +11,12 @@
     "static/media/web_dev_bootcamp.jpg": "/static/media/web_dev_bootcamp.b405679f070b45bed046.jpg",
     "static/media/videos.jpg": "/static/media/videos.c9c83166d6dba4eb914a.jpg",
     "static/media/modern_react.jpg": "/static/media/modern_react.aa66c7ab9b865c7d5e70.jpg",
-    "static/media/portrait_example.jpg": "/static/media/portrait_example.fbd0aa7a92b68d92a763.jpg",
     "index.html": "/index.html",
-    "main.f87f67b4.css.map": "/static/css/main.f87f67b4.css.map",
-    "main.0660e797.js.map": "/static/js/main.0660e797.js.map"
+    "main.cfbd2e68.css.map": "/static/css/main.cfbd2e68.css.map",
+    "main.bb9e35fd.js.map": "/static/js/main.bb9e35fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.f87f67b4.css",
-    "static/js/main.0660e797.js"
+    "static/css/main.cfbd2e68.css",
+    "static/js/main.bb9e35fd.js"
   ]
 }
