@@ -25,11 +25,11 @@
       font-size: 1.5rem;
      
     }
-    p {
-      text-indent: 2rem;
-      // margin: 2rem 0;
-      font-size: 1.3rem;
-    }
+    // p {
+    //   text-indent: 2rem;
+    //   // margin: 2rem 0;
+    //   font-size: 1.5rem;
+    // }
     ol{
       display: flex;
       justify-content: center;
@@ -56,7 +56,7 @@
 @media screen and (max-width: 1050px) {
   .about-page {
     .left {
-      padding: 0.5rem 1rem;
+      padding: 0.5rem 2rem;
       
     }
     // .right {

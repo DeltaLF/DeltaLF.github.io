@@ -151,6 +151,13 @@ h1 {
   font-weight: bold;
 }
 
+p {
+  font-size: 1.5rem;
+  text-indent: 2rem;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
 ol {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -240,12 +247,10 @@ span {
   padding: 1rem;
 }
 
-.page .page-body .container .card .card-body p {
-  font-size: 1.5rem;
-  text-indent: 2rem;
-}
-
 @media screen and (max-width: 1400px) {
+  p {
+    font-size: 1.2rem;
+  }
   .page .page-body .container .card {
     margin: 1.5rem 0;
     width: 100%;
@@ -256,10 +261,6 @@ span {
   }
   .page .page-body .container .card .card-body {
     margin: 0.5rem;
-  }
-  .page .page-body .container .card .card-body p {
-    font-size: 1rem;
-    text-indent: 2rem;
   }
 }
 /*# sourceMappingURL=App.css.map */

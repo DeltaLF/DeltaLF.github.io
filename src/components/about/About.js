@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
 import { aboutPage } from "../../portfolio";
-import portraitImage from "./../../resources/images/portrait_example.jpg";
 import { Fade } from "react-reveal";
 
 class About extends React.Component {

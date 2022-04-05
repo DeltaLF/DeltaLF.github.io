@@ -136,6 +136,7 @@ font-family: 'Roboto', sans-serif;
   // prevent padding casues overflow
 }
 
+
 h1,
 h2,
 h3,
@@ -152,7 +153,12 @@ h1 {
   margin: 2rem 0 0 2rem;
   font-weight: bold;
 }
-
+p {
+  font-size: 1.5rem;
+  text-indent: 2rem;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
 ol {
   display: flex;
   flex-wrap: wrap;
@@ -212,10 +218,10 @@ span {
   border:1px solid #A8B090;
   margin: .5rem;
   padding: 1rem;
-  p {
-    font-size: 1.5rem;
-    text-indent: 2rem;
-  }
+  // p {
+  //   font-size: 1.5rem;
+  //   text-indent: 2rem;
+  // }
 }
   
       }
@@ -224,6 +230,9 @@ span {
 }
 
 @media screen and (max-width: 1400px) {
+  p{
+    font-size: 1.2rem;
+  }
   .page {
     // .page-header {
     // }
@@ -239,11 +248,11 @@ span {
           }
           .card-body{
             margin: 0.5rem;
-            p {
+            // p {
               
-              font-size: 1rem;
-              text-indent: 2rem;
-            }
+            //   font-size: 1rem;
+            //   text-indent: 2rem;
+            // }
           }
             
         }
