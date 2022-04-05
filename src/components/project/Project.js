@@ -13,7 +13,14 @@ class Project extends React.Component {
             </a>
           </div>
           <div className="card-body">
-            <h2>{title}</h2> <p>{projectDesc}</p>
+            <h2>{title}</h2>
+            <div>
+              <a href={url} className="card-btn">
+                Go Check
+              </a>
+            </div>
+
+            {/* <p>{projectDesc}</p> */}
           </div>
         </div>
       );

@@ -59,8 +59,8 @@ const experience = [
 
 const aboutPage = {
   aboutMe: [
-    "I am currently an anti-virus analyst who is responsible for analyzing malware. During this process, I realize that what I want is creating something so I start to take online courses from Udemy and now I am able to build websites with MERN stack. I found joy and sense of achievement in learning and building websites.",
-    "In my free time I love to go outdoor. Hiking, swimming, biking are all included. Maybe I just like to move it!",
+    "I am currently an anti-virus analyst who is responsible for analyzing malware. After going through these many samples, I realize that I am not satisfied with merely reading codes I also want to create something. So I start to take online courses from Udemy and now I am able to build websites with MERN stack. I found joy and sense of achievement in learning and building websites.",
+    "In my free time, I love to go outdoor. Hiking, swimming, and biking are all my hobbies. Immersing myself in nature makes me feel peaceful.",
   ],
   portaitPath: portrait,
   softwareSkills: [
