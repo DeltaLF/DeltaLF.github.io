@@ -4,27 +4,32 @@ import { project } from "../../portfolio";
 
 class Project extends React.Component {
   renderProjects() {
-    return project.map(({ title, imgPath, url, projectDesc }, index) => {
-      return (
-        <div className="card" key={index}>
-          <div className="card-img">
-            <a href={url}>
-              <img src={imgPath} alt="project image" />
-            </a>
-          </div>
-          <div className="card-body">
-            <h2>{title}</h2>
-            <div>
-              <a href={url} className="card-btn">
-                Check it
+    return project.map(
+      ({ title, imgPath, url, githubUrl, projectDesc }, index) => {
+        return (
+          <div className="card" key={index}>
+            <div className="card-img">
+              <a href={url}>
+                <img src={imgPath} alt="project image" />
               </a>
             </div>
+            <div className="card-body">
+              <h2>{title}</h2>
+              <div>
+                <a href={url} className="card-btn">
+                  WebSite
+                </a>
+                <a href={githubUrl} className="card-btn">
+                  Github
+                </a>
+              </div>
 
-            {/* <p>{projectDesc}</p> */}
+              {/* <p>{projectDesc}</p> */}
+            </div>
           </div>
-        </div>
-      );
-    });
+        );
+      }
+    );
   }
   render() {
     return (

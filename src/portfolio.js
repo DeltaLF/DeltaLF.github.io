@@ -130,24 +130,26 @@ const project = [
   {
     title: "Online Course MERN project",
     imgPath: project1,
-    url: "https://github.com/DeltaLF/online-course",
+    url: "https://velvety-kulfi-650427.netlify.app",
+    githubUrl: "https://github.com/DeltaLF/online-course",
     projectDesc:
       "Start from scratch to build an online learning website based on MERN stack (MongoDB, Express, React, NodeJS). Authentication is implemented by jwt token. You can register an account to create courses, subscribe to courses, and put courses in the shop cart. Also, there is a new students promotion only existing for the new user for 5 hours which is implemented by localStorage.",
   },
   {
-    title: "Video Search React project",
-    imgPath: project2,
-    url: "https://github.com/DeltaLF/video-app",
-    projectDesc:
-      "A React front-end website that can search youtube videos, and Wikipedia by making an API request. The API request is made through the Netlify serverless function to prevent the API key from being accessed directly.",
-  },
-
-  {
     title: "Yelp Camp Node Express project",
     imgPath: project3,
-    url: "https://github.com/DeltaLF/yelpcamp-",
+    url: "https://serene-eyrie-64689.herokuapp.com",
+    githubUrl: "https://github.com/DeltaLF/yelpcamp-",
     projectDesc:
       "A project modified from The Web Developer Bootcamp. This site is built by node, express, ejs, and MongoDB atlas and it can be used to create and share camp information. I add some extra features that are passport Google login, review editable, middleware to check login status, user image schema, and function to delete a user.",
+  },
+  {
+    title: "Video Search React project",
+    imgPath: project2,
+    url: "https://eloquent-bardeen-bfe74f.netlify.app/",
+    githubUrl: "https://github.com/DeltaLF/video-app",
+    projectDesc:
+      "A React front-end website that can search youtube videos, and Wikipedia by making an API request. The API request is made through the Netlify serverless function to prevent the API key from being accessed directly.",
   },
 ];
 

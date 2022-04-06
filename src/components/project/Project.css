@@ -57,6 +57,7 @@ div > .project-page .page-body > .container > .card .card-body div .card-btn {
   font-weight: 600;
   line-height: 20px;
   padding: 6px 16px;
+  margin: 0 1rem;
   position: relative;
   text-align: center;
   text-decoration: none;
