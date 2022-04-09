@@ -59,7 +59,7 @@ const experience = [
 
 const aboutPage = {
   aboutMe: [
-    "I am currently an anti-virus analyst who is responsible for analyzing malware. After going through these many samples, I realize that I am not satisfied with merely reading codes I also want to create something. So I start to take online courses from Udemy and now I am able to build websites with MERN stack. I found joy and sense of achievement in learning and building websites.",
+    "I am currently an anti-virus analyst who is responsible for analyzing malware. After going through these many samples, I realize that I am not satisfied with merely reading codes I also want to create something. So I start to take online courses from Udemy and now I am able to build websites with the MERN stack. I found joy and sense of achievement in learning and building websites.",
     "In my free time, I love to go outdoor. Hiking, swimming, and biking are all my hobbies. Immersing myself in nature makes me feel peaceful.",
   ],
   portaitPath: portrait,
@@ -133,7 +133,7 @@ const project = [
     url: "https://velvety-kulfi-650427.netlify.app",
     githubUrl: "https://github.com/DeltaLF/online-course",
     projectDesc:
-      "Start from scratch to build an online learning website based on MERN stack (MongoDB, Express, React, NodeJS). Authentication is implemented by jwt token. You can register an account to create courses, subscribe to courses, and put courses in the shop cart. Also, there is a new students promotion only existing for the new user for 5 hours which is implemented by localStorage.",
+      "Start from scratch to build an online learning website based on the MERN stack (MongoDB, Express, React, NodeJS). Authentication is implemented by jwt token. You can register an account to create courses, subscribe to courses, and put courses in the shop cart. Also, there is a new students promotion only existing for the new user for 5 hours which is implemented by localStorage.",
   },
   {
     title: "Yelp Camp Node Express project",

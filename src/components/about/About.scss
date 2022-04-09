@@ -1,8 +1,10 @@
 .about-page {
   scroll-margin-top: 48px;
   width: 100%;
+  min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
+
   
 
   .left {
@@ -11,7 +13,9 @@
     flex: 3 1 400px;
     padding: 4rem 0 2rem 4rem;
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    
     .left-header{
       margin: 2rem 0 2rem 0;
       h1{
@@ -21,19 +25,16 @@
       }
     }
 
+
     h3 {
       font-size: 1.5rem;
      
     }
-    // p {
-    //   text-indent: 2rem;
-    //   // margin: 2rem 0;
-    //   font-size: 1.5rem;
-    // }
     ol{
       display: flex;
       justify-content: center;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
+      
     }
   }
   .right {
@@ -42,10 +43,8 @@
     display: flex;
 
     img {
-      // width: 20vw;
       width: 80%;
       height: auto;
-      //   height: 40vh;
       margin: auto;
     }
   }
@@ -59,10 +58,5 @@
       padding: 0.5rem 2rem;
       
     }
-    // .right {
-    //   img {
-    //     width: 40vw;
-    //   }
-    // }
   }
 }
