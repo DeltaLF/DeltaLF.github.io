@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7a91d8f.css",
-    "main.js": "/static/js/main.cc8d0dae.js",
+    "main.css": "/static/css/main.30735f00.css",
+    "main.js": "/static/js/main.e3152d7c.js",
     "static/media/onlineCourse.jpg": "/static/media/onlineCourse.5f489f11ff3cfab14748.jpg",
     "static/media/me.jpg": "/static/media/me.2bc00e31c954f2b604e8.jpg",
     "static/media/web_dev.jpg": "/static/media/web_dev.12396e72a8061a273c7f.jpg",
@@ -12,11 +12,13 @@
     "static/media/videos.jpg": "/static/media/videos.c9c83166d6dba4eb914a.jpg",
     "static/media/modern_react.jpg": "/static/media/modern_react.aa66c7ab9b865c7d5e70.jpg",
     "index.html": "/index.html",
-    "main.e7a91d8f.css.map": "/static/css/main.e7a91d8f.css.map",
-    "main.cc8d0dae.js.map": "/static/js/main.cc8d0dae.js.map"
+    "static/media/iconmonstr-arrow-66.svg": "/static/media/iconmonstr-arrow-66.0c1b14a0a92f9039299a2a8b79c68d49.svg",
+    "static/media/iconmonstr-arrow-65.svg": "/static/media/iconmonstr-arrow-65.fee13e32a766530415446a7e05626396.svg",
+    "main.30735f00.css.map": "/static/css/main.30735f00.css.map",
+    "main.e3152d7c.js.map": "/static/js/main.e3152d7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7a91d8f.css",
-    "static/js/main.cc8d0dae.js"
+    "static/css/main.30735f00.css",
+    "static/js/main.e3152d7c.js"
   ]
 }
