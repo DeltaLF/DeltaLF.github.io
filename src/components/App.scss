@@ -205,13 +205,14 @@ span {
   scroll-margin-top: 48px;
   width: 100%;
   background-color: $theme-background ;
-  // background-color: #e9edc9;
+
 
   .page-header {
     width: 100%;
     display: flex;
   }
   .page-body {
+    padding-bottom: 5rem;
     .container {
       margin-bottom: 2rem;
       display: flex;

@@ -226,6 +226,10 @@ span {
   display: flex;
 }
 
+.page .page-body {
+  padding-bottom: 5rem;
+}
+
 .page .page-body .container {
   margin-bottom: 2rem;
   display: -webkit-box;
