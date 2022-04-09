@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import { aboutPage } from "../../portfolio";
 import { Fade } from "react-reveal";
+import { arrowNext, arrowPrevious } from "../share/guideArrow";
 
 class About extends React.Component {
   renderSkills() {
@@ -44,6 +45,8 @@ class About extends React.Component {
             <img className="" src={aboutPage.portaitPath} alt="portrait" />
           </div>
         </Fade>
+        {arrowPrevious("#")}
+        {arrowNext("#experience-page")}
       </div>
     );
   }

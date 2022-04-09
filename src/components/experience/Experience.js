@@ -6,6 +6,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { experience } from "./../../portfolio";
+import { arrowNext, arrowPrevious } from "../share/guideArrow";
 
 class Experience extends React.Component {
   renderVerticalTimelineElement() {
@@ -57,6 +58,8 @@ class Experience extends React.Component {
             />
           </VerticalTimeline>
         </div>
+        {arrowPrevious("#about-page")}
+        {arrowNext("#project-page")}
       </div>
     );
   }

@@ -192,7 +192,28 @@ span {
   font-size: 2em;
 }
 
+.arrow-next {
+  position: absolute;
+  left: 50vw;
+  bottom: 2rem;
+}
+
+.arrow-next img {
+  width: 2rem;
+}
+
+.arrow-previous {
+  position: absolute;
+  left: 50vw;
+  top: 2rem;
+}
+
+.arrow-previous img {
+  width: 2rem;
+}
+
 .page {
+  position: relative;
   scroll-margin-top: 48px;
   width: 100%;
   background-color: #A8B090;
@@ -206,6 +227,7 @@ span {
 }
 
 .page .page-body .container {
+  margin-bottom: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -250,6 +272,9 @@ span {
 @media screen and (max-width: 1400px) {
   p {
     font-size: 1.2rem;
+  }
+  .page .page-header {
+    padding-top: 4rem;
   }
   .page .page-body .container .card {
     margin: 1.5rem 0;

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Certificate.css";
 import { certificates } from "../../portfolio";
+import { arrowPrevious } from "../share/guideArrow";
 
 class Certificate extends React.Component {
   renderCertificate() {
@@ -24,6 +25,7 @@ class Certificate extends React.Component {
         <div className="page-body">
           <div className="container">{this.renderCertificate()}</div>
         </div>
+        {arrowPrevious("#project-page")}
       </div>
     );
   }

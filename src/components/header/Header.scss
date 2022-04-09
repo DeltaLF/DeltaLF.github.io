@@ -1,8 +1,9 @@
 .header-page{
-    height: 100vh;
+    position: relative;
+    height: 96vh;
     display:flex;
 
-div{
+.greeting{
     min-width:0;
     text-align: center;
     margin:auto;

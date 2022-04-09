@@ -44,7 +44,7 @@ class Navbar extends React.Component {
               <a href="#experience-page">{Experience}</a>
             </li>
             <li>
-              <a href="#project-page ">{Project}</a>
+              <a href="#project-page">{Project}</a>
             </li>
             <li>
               <a href="#certificate-page">{Certificate}</a>

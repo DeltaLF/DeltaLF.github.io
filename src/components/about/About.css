@@ -1,12 +1,13 @@
 .about-page {
   scroll-margin-top: 48px;
   width: 100%;
-  min-height: 100vh;
+  min-height: 96vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  position: relative;
 }
 
 .about-page .left {
@@ -71,6 +72,9 @@
 @media screen and (max-width: 1050px) {
   .about-page .left {
     padding: 0.5rem 2rem;
+  }
+  .about-page .right {
+    margin-bottom: 6rem;
   }
 }
 /*# sourceMappingURL=About.css.map */

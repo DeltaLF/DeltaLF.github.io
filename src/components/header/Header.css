@@ -1,17 +1,18 @@
 .header-page {
-  height: 100vh;
+  position: relative;
+  height: 96vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.header-page div {
+.header-page .greeting {
   min-width: 0;
   text-align: center;
   margin: auto;
 }
 
-.header-page div p {
+.header-page .greeting p {
   font-size: 3.5rem;
   font-weight: bold;
 }

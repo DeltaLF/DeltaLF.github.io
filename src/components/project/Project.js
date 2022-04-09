@@ -1,6 +1,7 @@
 import React from "react";
 import "./Project.css";
 import { project } from "../../portfolio";
+import { arrowNext, arrowPrevious } from "../share/guideArrow";
 
 class Project extends React.Component {
   renderProjects() {
@@ -41,6 +42,8 @@ class Project extends React.Component {
         <div className="page-body">
           <div className="container">{this.renderProjects()}</div>
         </div>
+        {arrowPrevious("#experience-page")}
+        {arrowNext("#certificate-page")}
       </div>
     );
   }

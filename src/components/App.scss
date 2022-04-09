@@ -181,7 +181,27 @@ span {
   font-size: 2em;
 }
 
+.arrow-next{
+  position: absolute;
+  left: 50vw;
+  bottom: 2rem;
+  img{
+    width: 2rem;
+  }
+
+}
+.arrow-previous{
+  position: absolute;
+  left: 50vw;
+  top: 2rem;
+  img{
+    width: 2rem;
+  }
+
+}
+
 .page {
+  position: relative;
   scroll-margin-top: 48px;
   width: 100%;
   background-color: $theme-background ;
@@ -193,6 +213,7 @@ span {
   }
   .page-body {
     .container {
+      margin-bottom: 2rem;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
@@ -234,8 +255,10 @@ span {
     font-size: 1.2rem;
   }
   .page {
-    // .page-header {
-    // }
+
+    .page-header{
+      padding-top: 4rem;
+    }
     .page-body {
       .container {
       
