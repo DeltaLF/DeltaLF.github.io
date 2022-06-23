@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.bc14bbcc.css",
-    "main.js": "/static/js/main.fda31e10.js",
+    "main.js": "/static/js/main.220d67f5.js",
     "static/media/onlineCourse.jpg": "/static/media/onlineCourse.5f489f11ff3cfab14748.jpg",
     "static/media/me.jpg": "/static/media/me.2bc00e31c954f2b604e8.jpg",
+    "static/media/complete_react.jpg": "/static/media/complete_react.82c5daa3a631b2297aec.jpg",
     "static/media/web_dev.jpg": "/static/media/web_dev.12396e72a8061a273c7f.jpg",
     "static/media/mysql_bootcamp.jpg": "/static/media/mysql_bootcamp.3404ece1fbf074c1f491.jpg",
     "static/media/yelpCamp.jpg": "/static/media/yelpCamp.7f3c07c469484f8be7bb.jpg",
@@ -16,10 +17,10 @@
     "static/media/iconmonstr-arrow-66.svg": "/static/media/iconmonstr-arrow-66.0c1b14a0a92f9039299a2a8b79c68d49.svg",
     "static/media/iconmonstr-arrow-65.svg": "/static/media/iconmonstr-arrow-65.fee13e32a766530415446a7e05626396.svg",
     "main.bc14bbcc.css.map": "/static/css/main.bc14bbcc.css.map",
-    "main.fda31e10.js.map": "/static/js/main.fda31e10.js.map"
+    "main.220d67f5.js.map": "/static/js/main.220d67f5.js.map"
   },
   "entrypoints": [
     "static/css/main.bc14bbcc.css",
-    "static/js/main.fda31e10.js"
+    "static/js/main.220d67f5.js"
   ]
 }
