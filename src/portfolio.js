@@ -38,20 +38,32 @@ const header = {
 
 const experience = [
   {
-    date: "2021 - present",
+    date: "2022.05 - 2022.12",
+    title: "Frontend developer in Lyntics",
+    icon: "fab fa-react",
+    jobDesc:
+    <p>Implement API with Axios or Redux Toolkit<br/>
+    Using Fork as git client to conduct the version control<br/>
+    Implement permission control through HOC<br/>
+    Implement custom hooks<br/>
+    Write documentation about tree structure (based on Atlaskit tree), socket  (based on socket.io)</p>,
+    skillList: ["typescript", "redux toolkit", "scss","antd","atlaskit", "git fork"],
+  },
+  {
+    date: "2021.11 - 2022.05",
     title: "Self-taught web developer",
     icon: "fab fa-js",
     jobDesc:
-      "I take several Udemy web developer classes in my free time, and now I have finished 5 courses. Besides, some more classes are still undergoing. I also deploy 3 websites based on the knowledge I acquired.",
+      <p>I take several Udemy web developer classes in my free time, and now I have finished 5 courses. Besides, some more classes are still undergoing. I also deploy 3 websites based on the knowledge I acquired.</p>,
     skillList: ["javascript", "react", "html", "css"],
   },
   {
-    date: "2018 - present",
-    title: "Anti-Virus Analyst ",
+    date: "2018.09 - 2022.04 ",
+    title: "Anti-Virus Analyst in Fortient",
     icon: "fab fa-python",
     jobDesc:
-      "As an AV Analyst, I am mainly responsible for analyzing malicious samples with static, dynamics approaching and building corresponding signature files to detect those new virus mutations. Also, I conduct a side project to build a pipeline to automatically generate dynamical analysis reports based on python Airflow, and Cuckoo sandbox (an open-source automated malware analysis). With the reports, I then extract features from them and use python sklearn package to train a classifier which can help analysts pre-classify unknown samples to optimize our workflow. ",
-    skillList: ["python", "airflow"],
+    <p>As an AV Analyst, I am mainly responsible for analyzing malicious samples with static, dynamics approaching and building corresponding signature files to detect those new virus mutations. Also, I conduct a side project to build a pipeline to automatically generate dynamical analysis reports based on python Airflow, and Cuckoo sandbox (an open-source automated malware analysis). With the reports, I then extract features from them and use python sklearn package to train a classifier which can help analysts pre-classify unknown samples to optimize our workflow.</p>,
+    skillList: ["python", "airflow","sklearn","cuckoo sandbox"],
   },
 ];
 

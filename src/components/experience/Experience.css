@@ -2,22 +2,13 @@
   min-height: 96vh;
   width: 100;
   padding: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
+  align-items: center; }
 
 .page-body .expSkill {
   padding: 0.75rem;
   border-radius: 15px;
-  background-color: #f1dbb7;
-}
+  background-color: #f1dbb7; }
 
 .page-body p {
-  font-size: 1.5rem;
-  text-indent: 2rem;
-}
-/*# sourceMappingURL=Experience.css.map */
+  font-size: 1.5rem; }
