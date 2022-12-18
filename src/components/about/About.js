@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
 import { aboutPage } from "../../portfolio";
-import { Fade } from "react-reveal";
 import { arrowNext, arrowPrevious } from "../share/guideArrow";
 
 class About extends React.Component {
@@ -23,10 +22,8 @@ class About extends React.Component {
   render() {
     return (
       <div id="about-page" className="about-page">
-        <Fade left duration={2000}>
           <div className="left">
             <div className="left-header">
-              {" "}
               <h1>About</h1>
             </div>
             {aboutPage.aboutMe.map((line, index) => (
@@ -39,12 +36,9 @@ class About extends React.Component {
 
             <ol>{this.renderSkills()}</ol>
           </div>
-        </Fade>
-        <Fade right>
           <div className="right" duration={2000}>
             <img className="" src={aboutPage.portaitPath} alt="portrait" />
           </div>
-        </Fade>
         {arrowPrevious("#")}
         {arrowNext("#experience-page")}
       </div>

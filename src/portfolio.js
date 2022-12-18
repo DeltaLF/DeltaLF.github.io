@@ -32,12 +32,7 @@ const socialMediaLinks = [
 ];
 
 const header = {
-  intro: [
-    "Hello World!",
-    1000,
-    "I'm Patrick Tsai, an Anti-Virus Analyst / web developer",
-    5000,
-  ],
+  intro: "Hi, I'm Patrick Tsai, a Frontend developer",
 };
 
 const experience = [

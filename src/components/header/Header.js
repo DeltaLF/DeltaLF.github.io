@@ -1,5 +1,4 @@
 import React from "react";
-import Typical from "react-typical";
 import { header } from "../../portfolio";
 import "./Header.css";
 import { arrowNext } from "../share/guideArrow";
@@ -9,7 +8,7 @@ class Header extends React.Component {
     return (
       <div className="page header-page">
         <div className="greeting">
-          <Typical steps={header.intro} loop={Infinity} wrapper="p"></Typical>
+          <h1 style={{margin:'0'}}>{header.intro}</h1>
         </div>
         {arrowNext("#about-page")}
       </div>
