@@ -6,6 +6,7 @@ import cert5 from "./resources/images/certificate/web_dev_bootcamp.jpg";
 import cert6 from "./resources/images/certificate/data_structure_and_algorithm.jpg";
 import cert7 from "./resources/images/certificate/javascript_algorithms_and data_structures.jpg"
 import cert8 from "./resources/images/certificate/complete_react.jpg";
+import cert9 from "./resources/images/certificate/advanced_css_and_sass.jpg";
 
 import project1 from "./resources/images/project/onlineCourse.jpg";
 import project2 from "./resources/images/project/videos.jpg";
@@ -172,6 +173,7 @@ const certificates = [
   { title: "Algorithm", imgPath: cert6 },
   { title: "Algorithm",imgPath: cert7},
   { title: "React", imgPath: cert8 },
+  { title: "CSS", imgPath: cert9 },
 ];
 export {
   seo,
