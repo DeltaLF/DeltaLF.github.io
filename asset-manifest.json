@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.36c7e8e3.css",
-    "main.js": "/static/js/main.593ef45d.js",
+    "main.css": "/static/css/main.4151a4d9.css",
+    "main.js": "/static/js/main.fb277bed.js",
     "static/media/onlineCourse.jpg": "/static/media/onlineCourse.5f489f11ff3cfab14748.jpg",
     "static/media/me.jpg": "/static/media/me.2bc00e31c954f2b604e8.jpg",
     "static/media/complete_react.jpg": "/static/media/complete_react.82c5daa3a631b2297aec.jpg",
     "static/media/web_dev.jpg": "/static/media/web_dev.12396e72a8061a273c7f.jpg",
+    "static/media/advanced_css_and_sass.jpg": "/static/media/advanced_css_and_sass.f2055d4cc411592413f5.jpg",
     "static/media/mysql_bootcamp.jpg": "/static/media/mysql_bootcamp.3404ece1fbf074c1f491.jpg",
     "static/media/javascript_algorithms_and data_structures.jpg": "/static/media/javascript_algorithms_and data_structures.b3b663eec421e6afce8c.jpg",
     "static/media/yelpCamp.jpg": "/static/media/yelpCamp.7f3c07c469484f8be7bb.jpg",
@@ -17,11 +18,11 @@
     "index.html": "/index.html",
     "static/media/iconmonstr-arrow-66.svg": "/static/media/iconmonstr-arrow-66.0c1b14a0a92f9039299a2a8b79c68d49.svg",
     "static/media/iconmonstr-arrow-65.svg": "/static/media/iconmonstr-arrow-65.fee13e32a766530415446a7e05626396.svg",
-    "main.36c7e8e3.css.map": "/static/css/main.36c7e8e3.css.map",
-    "main.593ef45d.js.map": "/static/js/main.593ef45d.js.map"
+    "main.4151a4d9.css.map": "/static/css/main.4151a4d9.css.map",
+    "main.fb277bed.js.map": "/static/js/main.fb277bed.js.map"
   },
   "entrypoints": [
-    "static/css/main.36c7e8e3.css",
-    "static/js/main.593ef45d.js"
+    "static/css/main.4151a4d9.css",
+    "static/js/main.fb277bed.js"
   ]
 }
