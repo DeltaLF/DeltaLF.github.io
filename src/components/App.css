@@ -195,14 +195,15 @@ span {
 
 .page .page-body .container {
   margin-bottom: 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly; }
+  margin: 0 2rem 2rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-column-gap: 2rem; }
 
 .page .page-body .container .card {
   color: black;
   margin: 2rem;
-  width: 40%;
+  width: 100%;
   background-color: #E9EDC9;
   display: flex;
   flex-wrap: nowrap;

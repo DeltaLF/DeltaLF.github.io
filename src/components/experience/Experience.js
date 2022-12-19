@@ -28,7 +28,7 @@ class Experience extends React.Component {
                   <li key={index}>
                     <div className="expSkill" key={title + skill}>
                       {skill}
-                    </div>{" "}
+                    </div>
                   </li>
                 );
               })}

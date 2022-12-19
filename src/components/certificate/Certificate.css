@@ -1,14 +1,7 @@
-div > .certificate-page .page-body > .container > .card .card-img {
-  padding: 0;
-}
+.certificate-page .page-body .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-column-gap: 2rem; }
 
-div > .certificate-page .page-body > .container > .card .card-img img {
-  width: 100%;
-}
-
-@media screen and (max-width: 1400px) {
-  div > .certificate-page .page-body > .container > .card .card-img {
-    margin: 0rem;
-  }
-}
-/*# sourceMappingURL=Certificate.css.map */
+.certificate-page .page-body .container .card .card-img img {
+  width: 100%; }

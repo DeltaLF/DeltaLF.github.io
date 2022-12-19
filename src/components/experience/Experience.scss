@@ -15,6 +15,18 @@
   }
   p {
     font-size: 1.5rem;
-  // text-indent: 2rem;
   }
+}
+
+
+
+@media screen and (max-width: 450px) {
+  
+  .page-body {
+    padding: 2rem 1rem;
+    li{
+      margin: 0.1rem !important;
+    }
+  }
+
 }

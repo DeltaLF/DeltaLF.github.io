@@ -1,4 +1,4 @@
-div > .project-page {
+.project-page {
   background-color: #3f382e;
   color:white;
   .page-body > .container > .card {
@@ -17,49 +17,49 @@ div > .project-page {
         }
       }
     }
-.card-body{
-
-  width: 90%;
-div{
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-  .card-btn{
-    appearance: none;
-    background-color: #1a8338;
-    border: 1px solid rgba(27, 31, 35, .15);
-    border-radius: 6px;
-    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
-    padding: 6px 16px;
-    margin: 0 1rem;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: middle;
-    white-space: nowrap;
-     text-decoration: none;
-     &:hover{
-      background-color: #2c974b;
+  .card-body{
+  
+      width: 90%;
+    div{
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      .card-btn{
+        appearance: none;
+        background-color: #1a8338;
+        border: 1px solid rgba(27, 31, 35, .15);
+        border-radius: 6px;
+        box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        padding: 6px 16px;
+        margin: 0 1rem;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: middle;
+        white-space: nowrap;
+         text-decoration: none;
+         &:hover{
+          background-color: #2c974b;
+        }
+      }
+    
     }
   }
-
-}
-}
-p{
-  font-size: 1.2rem;
-}
-
+  p{
+    font-size: 1.2rem;
+  }
+  
   }
 }
 
@@ -69,21 +69,23 @@ p{
   div > .project-page {
 
 
-    .page-body > .container > .card {
-    
+    .page-body > .container {
+      margin: 0;
+      
+      .card {
+        .card-img{
+          margin:0rem;
+        }
   
-      .card-img{
-        margin:0rem;
-      }
-
-      .card-body{
-    h2{
-        font-size: 1.2rem;
-      }
-
-      }
-      p{
-        font-size: 1.1rem;
+        .card-body{
+      h2{
+          font-size: 1.2rem;
+        }
+  
+        }
+        p{
+          font-size: 1.1rem;
+        }
       }
     }
   }

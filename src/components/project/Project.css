@@ -1,55 +1,38 @@
-div > .project-page {
+.project-page {
   background-color: #3f382e;
-  color: white;
-}
+  color: white; }
 
-div > .project-page .page-body > .container > .card {
-  padding: 0;
-}
+.project-page .page-body > .container > .card {
+  padding: 0; }
 
-div > .project-page .page-body > .container > .card .card-img {
+.project-page .page-body > .container > .card .card-img {
   margin: 0;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
-div > .project-page .page-body > .container > .card .card-img img {
+.project-page .page-body > .container > .card .card-img img {
   margin: 0;
-  width: 100%;
-}
+  width: 100%; }
 
-div > .project-page .page-body > .container > .card .card-img img:hover {
+.project-page .page-body > .container > .card .card-img img:hover {
   background-color: black;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition: .5s;
-  transition: .5s;
-}
+  transform: scale(1.1);
+  transition: .5s; }
 
-div > .project-page .page-body > .container > .card .card-body {
-  width: 90%;
-}
+.project-page .page-body > .container > .card .card-body {
+  width: 90%; }
 
-div > .project-page .page-body > .container > .card .card-body div {
+.project-page .page-body > .container > .card .card-body div {
   margin-top: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
+  justify-content: center; }
 
-div > .project-page .page-body > .container > .card .card-body div .card-btn {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+.project-page .page-body > .container > .card .card-body div .card-btn {
+  appearance: none;
   background-color: #1a8338;
   border: 1px solid rgba(27, 31, 35, 0.15);
   border-radius: 6px;
-  -webkit-box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
-          box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
   color: #fff;
   cursor: pointer;
   display: inline-block;
@@ -62,34 +45,25 @@ div > .project-page .page-body > .container > .card .card-body div .card-btn {
   position: relative;
   text-align: center;
   text-decoration: none;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
+  user-select: none;
   -webkit-user-select: none;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
+  touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
-div > .project-page .page-body > .container > .card .card-body div .card-btn:hover {
-  background-color: #2c974b;
-}
+.project-page .page-body > .container > .card .card-body div .card-btn:hover {
+  background-color: #2c974b; }
 
-div > .project-page .page-body > .container > .card p {
-  font-size: 1.2rem;
-}
+.project-page .page-body > .container > .card p {
+  font-size: 1.2rem; }
 
 @media screen and (max-width: 1400px) {
-  div > .project-page .page-body > .container > .card .card-img {
-    margin: 0rem;
-  }
-  div > .project-page .page-body > .container > .card .card-body h2 {
-    font-size: 1.2rem;
-  }
-  div > .project-page .page-body > .container > .card p {
-    font-size: 1.1rem;
-  }
-}
-/*# sourceMappingURL=Project.css.map */
+  div > .project-page .page-body > .container {
+    margin: 0; }
+  div > .project-page .page-body > .container .card .card-img {
+    margin: 0rem; }
+  div > .project-page .page-body > .container .card .card-body h2 {
+    font-size: 1.2rem; }
+  div > .project-page .page-body > .container .card p {
+    font-size: 1.1rem; } }
