@@ -37,73 +37,19 @@ const header = {
   intro: "Hi, I'm Patrick Tsai, a Frontend developer",
 };
 
-const experience = [
-  {
-    date: "2022.05 - 2022.12",
-    title: "Frontend developer in Lyntics",
-    icon: "fab fa-react",
-    jobDesc:
-    <p>Implement API with Axios or Redux Toolkit<br/>
-    Using Fork as git client to conduct the version control<br/>
-    Implement permission control through HOC<br/>
-    Implement custom hooks<br/>
-    Write documentation about tree structure (based on Atlaskit tree), socket  (based on socket.io)</p>,
-    skillList: ["typescript", "redux toolkit", "scss","antd","atlaskit", "git fork"],
-  },
-  {
-    date: "2021.11 - 2022.05",
-    title: "Self-taught web developer",
-    icon: "fab fa-js",
-    jobDesc:
-      <p>I take several Udemy web developer classes in my free time, and now I have finished 5 courses. Besides, some more classes are still undergoing. I also deploy 3 websites based on the knowledge I acquired.</p>,
-    skillList: ["javascript", "react", "html", "css"],
-  },
-  {
-    date: "2018.09 - 2022.04 ",
-    title: "Anti-Virus Analyst in Fortient",
-    icon: "fab fa-python",
-    jobDesc:
-    <p>As an AV Analyst, I am mainly responsible for analyzing malicious samples with static, dynamics approaching and building corresponding signature files to detect those new virus mutations. Also, I conduct a side project to build a pipeline to automatically generate dynamical analysis reports based on python Airflow, and Cuckoo sandbox (an open-source automated malware analysis). With the reports, I then extract features from them and use python sklearn package to train a classifier which can help analysts pre-classify unknown samples to optimize our workflow.</p>,
-    skillList: ["python", "airflow","sklearn","cuckoo sandbox"],
-  },
-];
-
 const aboutPage = {
   aboutMe: [
-    "I am currently an anti-virus analyst who is responsible for analyzing malware. Besides the main duty, I also conduct side projects to optimize our daily workflow. Automatic samples classifier is what I am working on. While I am doing the side project, I gradually realize that creating something by coding brings me joy and sense of achievement. So I start to take online courses from Udemy. Now I am able to build websites with MERN stack after learning for a while. I am looking forward to becoming a web developer so I can bring what I have learned into practical work.",
+    "I am a continuously learning frontend developer who used to be an anti-virus analyst. Through past self-taught experiences, I found that learning brings me achievement, confidence, and more possibilities. I love how I immerse in coding without awaring time flies. I love how I passionately discuss with people with the knowledge we possessed. I love how I feel while solving programming problems. I believe the integration of passion and work makes me better.",
     "In my free time, I love to go outdoor. Hiking, swimming, and biking are all my hobbies. Immersing myself in nature makes me feel peaceful. I believe work-life balance can improve emotional, mental health and work performance.",
   ],
   portaitPath: portrait,
   softwareSkills: [
     {
-      skillName: "Python",
-      fontAwesomeClassname: "ion-logo-python",
+      skillName: "TypeScript",
+      fontAwesomeClassname: "simple-icons:typescript",
       style: {
-        backgroundColor: "transparent",
-        color: "#3776AB",
-      },
-    },
-    {
-      skillName: "HTML5",
-      fontAwesomeClassname: "simple-icons:html5",
-      style: {
-        color: "#E34F26",
-      },
-    },
-    {
-      skillName: "CSS3",
-      fontAwesomeClassname: "fa-css3",
-      style: {
-        color: "#1572B6",
-      },
-    },
-
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "simple-icons:javascript",
-      style: {
-        backgroundColor: "#000000",
-        color: "#F7DF1E",
+        backgroundColor: "#ffffff",
+        color: "#2f74c0",
       },
     },
     {
@@ -111,6 +57,20 @@ const aboutPage = {
       fontAwesomeClassname: "simple-icons:react",
       style: {
         color: "#61DAFB",
+      },
+    },
+    {
+      skillName: "HTML",
+      fontAwesomeClassname: "simple-icons:html5",
+      style: {
+        color: "#E34F26",
+      },
+    },
+    {
+      skillName: "CSS",
+      fontAwesomeClassname: "fa-css3",
+      style: {
+        color: "#1572B6",
       },
     },
     {
@@ -134,8 +94,57 @@ const aboutPage = {
         color: "#47A248",
       },
     },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "ion-logo-python",
+      style: {
+        backgroundColor: "transparent",
+        color: "#3776AB",
+      },
+    },
   ],
 };
+
+
+const experience = [
+  {
+    date: "2022.05 - 2022.12",
+    title: "Frontend developer in Lyntics",
+    icon: "fab fa-react",
+    jobDesc:
+    <p>Implement API with Axios or Redux Toolkit<br/>
+    Using Fork as git client to conduct the version control<br/>
+    Implement permission control through HOC<br/>
+    Implement custom hooks<br/>
+    Write documentation about tree structure (based on Atlaskit tree), socket  (based on socket.io)</p>,
+    skillList: ["typescript", "redux toolkit", "scss","antd","atlaskit", "git fork"],
+  },
+  {
+    date: "2021.11 - 2022.05",
+    title: "Self-taught web developer",
+    icon: "fab fa-js",
+    jobDesc:
+    <p>
+      300+ hours Udemy web developer classes<br/>
+      3 deployed websites<br />
+      70+ Leetcode continue working on...
+    </p>,
+    skillList: ["javascript", "react", "html", "css"],
+  },
+  {
+    date: "2018.09 - 2022.04 ",
+    title: "Anti-Virus Analyst in Fortient",
+    icon: "fab fa-python",
+    jobDesc:
+    <p>
+    Dynamic, static analyzing and unpacking different types of malware<br/>
+    Write virus signatures to detect samples<br/>
+    Build a pipeline to automatically generate dynamical analysis reports based on python Airflow, and Cuckoo sandbox (an open-source automated malware analysis).<br/>
+    Use python sklearn to train a classifier to identify malware
+    </p>,
+    skillList: ["python", "airflow","sklearn","cuckoo sandbox"],
+  },
+];
 
 const project = [
   {

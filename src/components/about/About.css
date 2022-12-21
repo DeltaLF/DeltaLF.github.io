@@ -2,82 +2,53 @@
   scroll-margin-top: 48px;
   width: 100%;
   min-height: 96vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  position: relative;
-}
+  flex-wrap: wrap;
+  position: relative; }
 
 .about-page .left {
   width: 100%;
   min-width: 0;
-  -webkit-box-flex: 3;
-      -ms-flex: 3 1 400px;
-          flex: 3 1 400px;
+  flex: 3 1 400px;
   padding: 4rem 0 2rem 4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  line-height: 1.5rem;
-}
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.5rem; }
 
 .about-page .left .left-header {
-  margin: 2rem 0 2rem 0;
-}
+  margin: 2rem 0 2rem 0; }
 
 .about-page .left .left-header h1 {
   font-size: 2rem;
   width: 100%;
-  margin: 0;
-}
+  margin: 0; }
 
 .about-page .left h3 {
-  font-size: 1.5rem;
-}
+  font-size: 1.5rem; }
 
 .about-page .left ol {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   font-size: 1.5rem;
   font-family: 'Cabin', sans-serif;
-  font-family: 'Roboto', sans-serif;
-}
+  font-family: 'Roboto', sans-serif; }
+
+.about-page .left ol li svg {
+  margin-left: 5px; }
 
 .about-page .right {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 400px;
-          flex: 1 1 400px;
+  flex: 1 1 400px;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
+  display: flex; }
 
 .about-page .right img {
   width: 80%;
   height: auto;
-  margin: auto;
-}
+  margin: auto; }
 
 @media screen and (max-width: 1050px) {
   .about-page .left {
-    padding: 4rem 2rem;
-  }
+    padding: 4rem 2rem; }
   .about-page .right {
-    margin-bottom: 6rem;
-  }
-}
-/*# sourceMappingURL=About.css.map */
+    margin-bottom: 6rem; } }
