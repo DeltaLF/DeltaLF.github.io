@@ -7,6 +7,7 @@ import cert6 from "./resources/images/certificate/data_structure_and_algorithm.j
 import cert7 from "./resources/images/certificate/javascript_algorithms_and data_structures.jpg"
 import cert8 from "./resources/images/certificate/complete_react.jpg";
 import cert9 from "./resources/images/certificate/advanced_css_and_sass.jpg";
+import cert10 from "./resources/images/certificate/typescript.jpg";
 
 import project1 from "./resources/images/project/onlineCourse.jpg";
 import project2 from "./resources/images/project/videos.jpg";
@@ -175,6 +176,7 @@ const project = [
 
 const certificates = [
   { title: "Javascript", imgPath: cert1 },
+  { title: "Typescript", imgPath: cert10},
   { title: "React", imgPath: cert2 },
   { title: "MsySQL", imgPath: cert3 },
   { title: "Full stack", imgPath: cert4 },
