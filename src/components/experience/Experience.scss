@@ -1,22 +1,88 @@
 
+#experience-page{
+  .page-body {
+    min-height: 100vh;
+    width: 100;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    p {
+      font-size: 1.5rem;
+    }
 
-.page-body {
+    .vertical-timeline-element{
+      ol{
+        margin:1rem 0 0 0;
+      }
+      &-header{
+        display:flex;
+        align-items: center;
+        h3,h5{
+          font-weight: 500;
+        }
+      }
 
-  min-height: 96vh;
-  width: 100;
-  padding: 2rem;
-  display: flex;
-  align-items: center;
-    .expSkill {
-    padding: 0.75rem;
-    border-radius: 15px;
-    background-color: #f1dbb7;
+      &-title{
+        margin-left: .8rem;
+        width: 100%;
+        h3{
+          margin: 0.3rem auto;
+          font-size: larger;
+        }
+      }
 
-  }
-  p {
-    font-size: 1.5rem;
+      &-avatar{
+        img{
+          width: 3rem;
+          // border-radius: 50%;
+          display: block;
+        }
+      }
+      &-description{
+        ul{
+          margin: 1.5rem 0 0 0.8rem;
+          display: flex;
+          flex-direction: column;
+          li{
+            margin:0 0 0.6rem 0;
+            a{
+              padding: 0 0.4rem;
+            }
+          }
+          li:last-child{
+            margin: 0;
+          }
+          li::before { 
+            content: "";
+            border-color: transparent #111;
+            border-style: solid;
+          /*   border-width: 0.35em 0 0.35em 0.45em; */
+            border-width: 0.35em 0 0.35em 0.55em;
+            display: block;
+            height: 0;
+            width: 0;
+            left: -1em;
+            top: 0.9em;
+            position: relative;
+          }
+        }
+
+
+      }
+      &-skill{
+        li{
+          font-size: 11px;
+          padding: 0.25rem;
+          border-radius: 3px;
+          background-color: #f1dbb7;
+          margin: 0.2rem;
+        }
+      }
+
+    }
   }
 }
+
 
 
 

@@ -11,28 +11,39 @@ import { arrowNext, arrowPrevious } from "../share/guideArrow";
 class Experience extends React.Component {
   renderVerticalTimelineElement() {
     return experience.map(
-      ({ date, title, jobDesc, skillList, icon }, index) => {
+      ({ date,imgPath, title,jobTitle, jobDesc, skillList, icon }, index) => {
         return (
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date={date}
             iconStyle={{ background: "#7E846C", color: "#fff" }}
             icon={<i className={icon}></i>}
             key={index}
           >
-            <h3 className="vertical-timeline-element-title"> {title}</h3>
-            {jobDesc}
-            <ol>
-              {skillList.map((skill, index) => {
-                return (
-                  <li key={index}>
-                    <div className="expSkill" key={title + skill}>
-                      {skill}
-                    </div>
-                  </li>
-                );
-              })}
-            </ol>
+
+            <div className="vertical-timeline-element-header">
+               <div className="vertical-timeline-element-avatar">
+                 <img src={imgPath} alt={title} />
+               </div>
+               <div className="vertical-timeline-element-title">
+               <h3> {title}</h3>
+               <h5>{jobTitle}</h5>
+               </div>
+            </div>
+            <div className="vertical-timeline-element-description">
+             {jobDesc}
+            </div>
+            <div className="vertical-timeline-element-skill">
+              <ol>
+                {skillList.map((skill, index) => {
+                  return (
+                    <li key={title + skill}>
+                        {skill}
+                    </li>
+                  );
+                })}
+              </ol>
+            </div>
           </VerticalTimelineElement>
         );
       }

@@ -1,3 +1,7 @@
+import lyntics from "./resources/images/avatar/Lyntics.jpg";
+import fortinet from "./resources/images/avatar/Fortinet.jpg";
+import sit from "./resources/images/avatar/sit.jpg";
+
 import cert1 from "./resources/images/certificate/javascript_weired_part.jpg";
 import cert2 from "./resources/images/certificate/modern_react.jpg";
 import cert3 from "./resources/images/certificate/mysql_bootcamp.jpg";
@@ -110,39 +114,48 @@ const aboutPage = {
 const experience = [
   {
     date: "2022.05 - 2022.12",
-    title: "Frontend developer in Lyntics",
+    title: "Lyntics",
+    jobTitle: "Frontend developer",
+    imgPath: lyntics,
     icon: "fab fa-react",
     jobDesc:
-    <p>Implement API with Axios or Redux Toolkit<br/>
-    Using Fork as git client to conduct the version control<br/>
-    Implement permission control through HOC<br/>
-    Implement custom hooks<br/>
-    Write documentation about tree structure (based on Atlaskit tree), socket  (based on socket.io)</p>,
-    skillList: ["typescript", "redux toolkit", "scss","antd","atlaskit", "git fork"],
+    <ul>
+      <li>Implement API with Axios and Redux Toolkit</li>
+      <li>Implement permission control through HOC</li>
+      <li>Using custom hooks to avoid duplicated code</li>
+      <li>Optimize performance by decreasing network traffic</li>
+      <li>Using Fork as git client to conduct the version control</li>
+      <li>Increase efficiency by writing docs about frontend code structure, tree structure, and socket</li>
+    </ul>,
+    skillList: ["React", "typescript", "redux toolkit", "scss","antd","atlaskit", "git fork"],
   },
   {
-    date: "2021.11 - 2022.05",
-    title: "Self-taught web developer",
+    date: "2021.11 - current",
+    title: "Self-taught learner",
+    jobTitle: "Web developer",
+    imgPath: sit,
     icon: "fab fa-js",
     jobDesc:
-    <p>
-      300+ hours Udemy web developer classes<br/>
-      3 deployed websites<br />
-      100+  <a style={{color:'#a8b090'}} href="https://leetcode.com/DeltaLF/" >Leetcode</a> continue working on...
-    </p>,
+    <ul>
+      <li>300+ hours Udemy web developer classes</li>
+      <li>3 deployed websites</li>
+      <li>100+<a style={{color:'#a8b090'}} href="https://leetcode.com/DeltaLF/" >Leetcode</a> continue working on...</li>
+    </ul>,
     skillList: ["javascript", "react", "html", "css"],
   },
   {
     date: "2018.09 - 2022.04 ",
-    title: "Anti-Virus Analyst in Fortient",
+    title: "Fortient",
+    jobTitle:'Anti-Virus Analyst',
+    imgPath: fortinet,
     icon: "fab fa-python",
     jobDesc:
-    <p>
-    Dynamic, static analyzing and unpacking different types of malware<br/>
-    Write virus signatures to detect samples<br/>
-    Build a pipeline to automatically generate dynamical analysis reports based on python Airflow, and Cuckoo sandbox (an open-source automated malware analysis).<br/>
-    Use python sklearn to train a classifier to identify malware
-    </p>,
+    <ul>
+      <li>Dynamic, static analyzing and unpacking 10+ families of malware</li>
+      <li>Write 2000+ virus signatures to detect samples</li>
+      <li>Build a pipeline to automatically generate dynamic analysis reports based on python Airflow and Cuckoo sandbox</li>
+      <li>Use python sklearn to train customized classifiers to identify malware</li>
+    </ul>,
     skillList: ["python", "airflow","sklearn","cuckoo sandbox"],
   },
 ];
