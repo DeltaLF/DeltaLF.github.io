@@ -21,7 +21,7 @@ import portrait from "./resources/images/me/me.jpg";
 
 const seo = {
   title: "Patrick's Portfolio",
-  description: "Hi I am Partick! I am a frontend developer.",
+  description: "Hi I am Partick, a frontend developer.",
   og: {
     title: "Patrick Tasi Portfolio",
     type: "website",
@@ -39,13 +39,13 @@ const socialMediaLinks = [
 ];
 
 const header = {
-  intro: "Hi, I'm Patrick Tsai, a Frontend developer",
+  intro: "Hi, I'm Patrick Tsai, a React frontend developer",
+  description: "I love to solve complicated frontend logic problems and take challenge!"
 };
 
 const aboutPage = {
   aboutMe: [
     "I am a continuously learning frontend developer who used to be an anti-virus analyst. Through past self-taught experiences, I found that learning brings me achievement, confidence, and more possibilities. I love how I immerse in coding without awaring time flies. I love how I passionately discuss with people with the knowledge we possessed. I love how I feel while solving programming problems. I believe the integration of passion and work makes me better.",
-    "In my free time, I love to go outdoor. Hiking, swimming, and biking are all my hobbies. Immersing myself in nature makes me feel peaceful. I believe work-life balance can improve emotional, mental health and work performance.",
   ],
   portaitPath: portrait,
   softwareSkills: [

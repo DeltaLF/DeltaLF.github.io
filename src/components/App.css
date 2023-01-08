@@ -139,7 +139,8 @@ h5 {
 
 h1 {
   margin: 2rem 0 0 2rem;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 1.5rem; }
 
 p {
   font-size: 1.5rem; }
@@ -163,8 +164,7 @@ strong {
 span {
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: 2em; }
+  justify-content: center; }
 
 .arrow-next {
   position: absolute;
@@ -223,7 +223,7 @@ span {
 
 @media screen and (max-width: 1400px) {
   p {
-    font-size: 1.2rem; }
+    font-size: 1rem; }
   .page .page-header {
     padding-top: 4rem; }
   .page .page-body .container .card {

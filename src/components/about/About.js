@@ -8,13 +8,13 @@ class About extends React.Component {
     return aboutPage.softwareSkills.map((skill) => {
       return (
         <li key={skill.skillName}>
-          {skill.skillName}{" "}
+          {skill.skillName}
           <span
             className="iconify"
             data-icon={skill.fontAwesomeClassname}
             style={skill.style}
             data-inline="false"
-          ></span>{" "}
+          ></span>
         </li>
       );
     });
@@ -30,10 +30,7 @@ class About extends React.Component {
               <p key={index}>{line}</p>
             ))}
 
-            <div className="left-header">
               <h3>Skills:</h3>
-            </div>
-
             <ol>{this.renderSkills()}</ol>
           </div>
           <div className="right" duration={2000}>

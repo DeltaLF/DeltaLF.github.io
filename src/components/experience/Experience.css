@@ -8,6 +8,9 @@
 #experience-page .page-body p {
   font-size: 1.5rem; }
 
+#experience-page .page-body .vertical-timeline {
+  margin: 0 auto 3rem auto; }
+
 #experience-page .page-body .vertical-timeline-element ol {
   margin: 1rem 0 0 0; }
 
