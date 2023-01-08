@@ -3,6 +3,9 @@
   height: 100vh;
   display: flex; }
 
+.header-page h1 {
+  font-size: 2rem; }
+
 .header-page .greeting {
   min-width: 0;
   text-align: center;
