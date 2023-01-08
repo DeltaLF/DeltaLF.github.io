@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cc81ddd.css",
-    "main.js": "/static/js/main.40fa9843.js",
+    "main.css": "/static/css/main.7583305a.css",
+    "main.js": "/static/js/main.3c9e803e.js",
     "static/media/onlineCourse.jpg": "/static/media/onlineCourse.5f489f11ff3cfab14748.jpg",
     "static/media/me.jpg": "/static/media/me.2bc00e31c954f2b604e8.jpg",
     "static/media/complete_react.jpg": "/static/media/complete_react.82c5daa3a631b2297aec.jpg",
@@ -16,14 +16,16 @@
     "static/media/web_dev_bootcamp.jpg": "/static/media/web_dev_bootcamp.b405679f070b45bed046.jpg",
     "static/media/videos.jpg": "/static/media/videos.c9c83166d6dba4eb914a.jpg",
     "static/media/modern_react.jpg": "/static/media/modern_react.aa66c7ab9b865c7d5e70.jpg",
+    "static/media/Lyntics.jpg": "/static/media/Lyntics.17e08d6040186f12c9e2.jpg",
+    "static/media/myLogo.svg": "/static/media/myLogo.71c1ea6af25f362043725820ee3ef052.svg",
     "index.html": "/index.html",
     "static/media/iconmonstr-arrow-66.svg": "/static/media/iconmonstr-arrow-66.0c1b14a0a92f9039299a2a8b79c68d49.svg",
     "static/media/iconmonstr-arrow-65.svg": "/static/media/iconmonstr-arrow-65.fee13e32a766530415446a7e05626396.svg",
-    "main.2cc81ddd.css.map": "/static/css/main.2cc81ddd.css.map",
-    "main.40fa9843.js.map": "/static/js/main.40fa9843.js.map"
+    "main.7583305a.css.map": "/static/css/main.7583305a.css.map",
+    "main.3c9e803e.js.map": "/static/js/main.3c9e803e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cc81ddd.css",
-    "static/js/main.40fa9843.js"
+    "static/css/main.7583305a.css",
+    "static/js/main.3c9e803e.js"
   ]
 }
