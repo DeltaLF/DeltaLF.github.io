@@ -17,7 +17,7 @@ import portrait from "./resources/images/me/me.jpg";
 
 const seo = {
   title: "Patrick's Portfolio",
-  description: "Hi I am Partick! I am learning coding now.",
+  description: "Hi I am Partick! I am a frontend developer.",
   og: {
     title: "Patrick Tasi Portfolio",
     type: "website",
@@ -128,7 +128,7 @@ const experience = [
     <p>
       300+ hours Udemy web developer classes<br/>
       3 deployed websites<br />
-      70+ Leetcode continue working on...
+      100+  <a style={{color:'#a8b090'}} href="https://leetcode.com/DeltaLF/" >Leetcode</a> continue working on...
     </p>,
     skillList: ["javascript", "react", "html", "css"],
   },

@@ -89,6 +89,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -129,10 +130,10 @@ table {
 
 // end of reset
 
-* {
+*:not(i) {
   box-sizing: border-box;
-  font-family: 'Cabin', sans-serif;
-font-family: 'Roboto', sans-serif;
+  font-family: Open Sans,sans-serif;//,Arial, sans-serif !important;
+  font-weight:300;
   // prevent padding casues overflow
 }
 
@@ -155,9 +156,6 @@ h1 {
 }
 p {
   font-size: 1.5rem;
-  // text-indent: 2rem;
-  font-family: 'Cabin', sans-serif;
-  font-family: 'Roboto', sans-serif;
 }
 ol {
   display: flex;
@@ -167,6 +165,12 @@ ol {
     margin: 0.75rem;
     min-width: 0;
     display: flex;
+  }
+}
+
+ul{
+  li{
+    font-size: 12px;
   }
 }
 
@@ -202,7 +206,6 @@ span {
 
 .page {
   position: relative;
-  scroll-margin-top: 48px;
   width: 100%;
   background-color: $theme-background ;
 

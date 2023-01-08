@@ -1,13 +1,12 @@
 .navbar-main {
   width: 100vw;
   max-width: 100%;
-  box-shadow: 0 6px 4px -3px black;
-  position: sticky;
+  position: fixed;
   top: 0;
   display: flex;
   flex-wrap: wrap;
   z-index: 5;
-  background-color: whitesmoke;
+  background-color: transparent;
   transition: all 1.25s ease;
   .logo {
     // margin: 1rem 1rem;
@@ -25,18 +24,22 @@
     margin-right: 1rem;
     flex: 4 1 300px;
     margin: 1rem 1rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
   
     ul {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: start;
       li {
+        margin-right: 1rem;
         a {
           text-decoration: none;
           color: #000;
         }
+      }
+      li:last-child{
+        margin-right: 0;
       }
     }
   }
@@ -50,7 +53,7 @@
     .navbar-list {
       margin: 1rem 0.3rem;
       width: 100%;
- font-size: 1.1rem;
+ font-size: 1rem;
    
      
     }
