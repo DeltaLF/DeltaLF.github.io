@@ -10,14 +10,8 @@
   transition: all 1.25s ease; }
 
 .navbar-main .logo {
-  margin-right: 0.5rem;
-  font-size: 2rem;
-  display: flex;
-  align-items: center; }
-
-.navbar-main .logo a {
-  text-decoration: none;
-  color: #000; }
+  margin: 0.25rem 0 0 0.5rem;
+  width: 2.2rem; }
 
 .navbar-main .navbar-list {
   margin-right: 1rem;
@@ -42,8 +36,6 @@
   margin-right: 0; }
 
 @media screen and (max-width: 600px) {
-  .navbar-main .log {
-    margin: 1rem 0; }
   .navbar-main .navbar-list {
     margin: 1rem 0.3rem;
     width: 100%;

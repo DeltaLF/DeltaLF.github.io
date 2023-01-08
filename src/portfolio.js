@@ -1,6 +1,6 @@
 import lyntics from "./resources/images/avatar/Lyntics.jpg";
 import fortinet from "./resources/images/avatar/Fortinet.jpg";
-import sit from "./resources/images/avatar/sit.jpg";
+import myLogo from "./resources/images/me/myLogo.svg";
 
 import cert1 from "./resources/images/certificate/javascript_weired_part.jpg";
 import cert2 from "./resources/images/certificate/modern_react.jpg";
@@ -131,9 +131,9 @@ const experience = [
   },
   {
     date: "2021.11 - current",
-    title: "Self-taught learner",
+    title: "Self-taught",
     jobTitle: "Web developer",
-    imgPath: sit,
+    imgPath: myLogo,
     icon: "fab fa-js",
     jobDesc:
     <ul>
@@ -207,4 +207,5 @@ export {
   experience,
   project,
   certificates,
+  myLogo,
 };

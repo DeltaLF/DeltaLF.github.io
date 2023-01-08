@@ -1,12 +1,11 @@
 import React from "react";
 import "./Navbar.css";
-import { socialMediaLinks } from "./../../portfolio";
+import { myLogo } from "../../portfolio";
 
 class Navbar extends React.Component {
   renderHeadText() {
     if (window.innerWidth > 600) {
       return {
-        Home: "Home",
         About: "About",
         Experience: "Experience",
         Project: "Project",
@@ -14,7 +13,6 @@ class Navbar extends React.Component {
       };
     } else {
       return {
-        Home: "Home",
         About: "About",
         Experience: "Exp",
         Project: "Project",
@@ -23,20 +21,17 @@ class Navbar extends React.Component {
     }
   }
   render() {
-    const { Home, About, Experience, Project, Certificate } =
+    const { About, Experience, Project, Certificate } =
       this.renderHeadText();
     return (
       <div id="navbar-main" className="navbar-main">
         <div className="logo">
-          <a href={socialMediaLinks[0].link}>
-            <i className="fab fa-github"></i>
+          <a href="#">
+            <img src={myLogo}></img>
           </a>
         </div>
         <div className="navbar-list">
           <ul>
-            <li>
-              <a href="#">{Home}</a>
-            </li>
             <li>
               <a href="#about-page">{About}</a>
             </li>
