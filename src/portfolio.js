@@ -8,10 +8,11 @@ import cert3 from "./resources/images/certificate/mysql_bootcamp.jpg";
 import cert4 from "./resources/images/certificate/web_dev.jpg";
 import cert5 from "./resources/images/certificate/web_dev_bootcamp.jpg";
 import cert6 from "./resources/images/certificate/data_structure_and_algorithm.jpg";
-import cert7 from "./resources/images/certificate/javascript_algorithms_and data_structures.jpg"
+import cert7 from "./resources/images/certificate/javascript_algorithms_and data_structures.jpg";
 import cert8 from "./resources/images/certificate/complete_react.jpg";
 import cert9 from "./resources/images/certificate/advanced_css_and_sass.jpg";
 import cert10 from "./resources/images/certificate/typescript.jpg";
+import cert11 from "./resources/images/certificate/Testing_React_with_Jest_and_React_Testing_Library_RTL.jpg";
 
 import project1 from "./resources/images/project/onlineCourse.jpg";
 import project2 from "./resources/images/project/videos.jpg";
@@ -40,7 +41,8 @@ const socialMediaLinks = [
 
 const header = {
   intro: "Hi, I'm Patrick Tsai, a React frontend developer",
-  description: "I love to solve complicated frontend logic problems and take challenge!"
+  description:
+    "I love to solve complicated frontend logic problems and take challenge!",
 };
 
 const aboutPage = {
@@ -110,7 +112,6 @@ const aboutPage = {
   ],
 };
 
-
 const experience = [
   {
     date: "2022.05 - 2022.12",
@@ -118,16 +119,28 @@ const experience = [
     jobTitle: "Frontend developer",
     imgPath: lyntics,
     icon: "fab fa-react",
-    jobDesc:
-    <ul>
-      <li>Implement API with Axios and Redux Toolkit</li>
-      <li>Implement permission control through HOC</li>
-      <li>Using custom hooks to avoid duplicated code</li>
-      <li>Optimize performance by decreasing network traffic</li>
-      <li>Using Fork as git client to conduct the version control</li>
-      <li>Increase efficiency by writing docs about frontend code structure, tree structure, and socket</li>
-    </ul>,
-    skillList: ["React", "typescript", "redux toolkit", "scss","antd","atlaskit", "git fork"],
+    jobDesc: (
+      <ul>
+        <li>Implement API with Axios and Redux Toolkit</li>
+        <li>Implement permission control through HOC</li>
+        <li>Using custom hooks to avoid duplicated code</li>
+        <li>Optimize performance by decreasing network traffic</li>
+        <li>Using Fork as git client to conduct the version control</li>
+        <li>
+          Increase efficiency by writing docs about frontend code structure,
+          tree structure, and socket
+        </li>
+      </ul>
+    ),
+    skillList: [
+      "React",
+      "typescript",
+      "redux toolkit",
+      "scss",
+      "antd",
+      "atlaskit",
+      "git fork",
+    ],
   },
   {
     date: "2021.11 - current",
@@ -135,28 +148,41 @@ const experience = [
     jobTitle: "Web developer",
     imgPath: myLogo,
     icon: "fab fa-js",
-    jobDesc:
-    <ul>
-      <li>300+ hours Udemy web developer classes</li>
-      <li>3 deployed websites</li>
-      <li>100+<a style={{color:'#a8b090'}} href="https://leetcode.com/DeltaLF/" >Leetcode</a> continue working on...</li>
-    </ul>,
+    jobDesc: (
+      <ul>
+        <li>300+ hours Udemy web developer classes</li>
+        <li>3 deployed websites</li>
+        <li>
+          100+
+          <a style={{ color: "#a8b090" }} href="https://leetcode.com/DeltaLF/">
+            Leetcode
+          </a>{" "}
+          continue working on...
+        </li>
+      </ul>
+    ),
     skillList: ["javascript", "react", "html", "css"],
   },
   {
     date: "2018.09 - 2022.04 ",
     title: "Fortient",
-    jobTitle:'Anti-Virus Analyst',
+    jobTitle: "Anti-Virus Analyst",
     imgPath: fortinet,
     icon: "fab fa-python",
-    jobDesc:
-    <ul>
-      <li>Dynamic, static analyzing and unpacking 10+ families of malware</li>
-      <li>Write 2000+ virus signatures to detect samples</li>
-      <li>Build a pipeline to automatically generate dynamic analysis reports based on python Airflow and Cuckoo sandbox</li>
-      <li>Use python sklearn to train customized classifiers to identify malware</li>
-    </ul>,
-    skillList: ["python", "airflow","sklearn","cuckoo sandbox"],
+    jobDesc: (
+      <ul>
+        <li>Dynamic, static analyzing and unpacking 10+ families of malware</li>
+        <li>Write 2000+ virus signatures to detect samples</li>
+        <li>
+          Build a pipeline to automatically generate dynamic analysis reports
+          based on python Airflow and Cuckoo sandbox
+        </li>
+        <li>
+          Use python sklearn to train customized classifiers to identify malware
+        </li>
+      </ul>
+    ),
+    skillList: ["python", "airflow", "sklearn", "cuckoo sandbox"],
   },
 ];
 
@@ -189,14 +215,15 @@ const project = [
 
 const certificates = [
   { title: "Javascript", imgPath: cert1 },
-  { title: "Typescript", imgPath: cert10},
+  { title: "Typescript", imgPath: cert10 },
   { title: "React", imgPath: cert2 },
+  { title: "React", imgPath: cert8 },
+  { title: "React test", imgPath: cert11 },
   { title: "MsySQL", imgPath: cert3 },
   { title: "Full stack", imgPath: cert4 },
   { title: "Full stack", imgPath: cert5 },
   { title: "Algorithm", imgPath: cert6 },
-  { title: "Algorithm",imgPath: cert7},
-  { title: "React", imgPath: cert8 },
+  { title: "Algorithm", imgPath: cert7 },
   { title: "CSS", imgPath: cert9 },
 ];
 export {
