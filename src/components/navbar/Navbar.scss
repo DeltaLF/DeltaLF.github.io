@@ -1,3 +1,4 @@
+@import "../../scss/variable";
 .navbar-main {
   width: 100vw;
   max-width: 100%;
@@ -8,6 +9,7 @@
   z-index: 5;
   background-color: transparent;
   transition: all 1.25s ease;
+
   .logo {
     margin: 0.25rem 0 0 0.5rem;
     width: 2.2rem;
@@ -19,7 +21,7 @@
     margin: 1rem 1rem;
     font-size: 1.3rem;
     font-weight: bold;
-  
+
     ul {
       display: flex;
       align-items: center;
@@ -31,8 +33,34 @@
           color: #000;
         }
       }
-      li:last-child{
+      li:last-child {
         margin-right: 0;
+      }
+    }
+  }
+
+  &:hover {
+    transition: backgroundColor 0.5s ease;
+    background-color: $theme-dark;
+    .navbar-list > ul > li > a {
+      color: $theme-light;
+      text-decoration: none;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        right: 0;
+        background-color: $theme-light;
+        height: 2px;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+      }
+
+      &:hover::after {
+        transform: scaleX(1);
       }
     }
   }
@@ -43,10 +71,7 @@
     .navbar-list {
       margin: 1rem 0.3rem;
       width: 100%;
- font-size: 1rem;
-   
-     
+      font-size: 1rem;
     }
   }
-
 }

@@ -1,7 +1,4 @@
-$theme-background : #A8B090;
-$theme-card :  #E9EDC9;
-
-
+@import "../scss/variable";
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -132,11 +129,10 @@ table {
 
 *:not(i) {
   box-sizing: border-box;
-  font-family: Open Sans,sans-serif;//,Arial, sans-serif !important;
-  font-weight:300;
+  font-family: Open Sans, sans-serif; //,Arial, sans-serif !important;
+  font-weight: 300;
   // prevent padding casues overflow
 }
-
 
 h1,
 h2,
@@ -169,8 +165,8 @@ ol {
   }
 }
 
-ul{
-  li{
+ul {
+  li {
     font-size: 12px;
   }
 }
@@ -185,30 +181,27 @@ span {
   justify-content: center;
 }
 
-.arrow-next{
+.arrow-next {
   position: absolute;
   left: 50vw;
   bottom: 2rem;
-  img{
+  img {
     width: 2rem;
   }
-
 }
-.arrow-previous{
+.arrow-previous {
   position: absolute;
   left: 50vw;
   top: 2rem;
-  img{
+  img {
     width: 2rem;
   }
-
 }
 
 .page {
   position: relative;
   width: 100%;
-  background-color: $theme-background ;
-
+  background-color: $theme-background;
 
   .page-header {
     width: 100%;
@@ -220,59 +213,55 @@ span {
       margin-bottom: 2rem;
       margin: 0 2rem 2rem 2rem;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(20rem ,1fr));
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
       grid-column-gap: 2rem;
       .card {
         color: black;
         margin: 2rem;
         width: 100%;
         // height: 50vh;
-        background-color: $theme-card ;
+        background-color: $theme-card;
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
         align-items: center;
         text-align: center;
-         
+
         h2 {
           font-size: 2rem;
           margin: 1rem 0;
         }
-     
-.card-body{
-  border:1px solid #A8B090;
-  margin: .5rem;
-  padding: 1rem;
-}
-  
+
+        .card-body {
+          border: 1px solid #a8b090;
+          margin: 0.5rem;
+          padding: 1rem;
+        }
       }
     }
   }
 }
 
 @media screen and (max-width: 1400px) {
-  p{
+  p {
     font-size: 1rem;
   }
   .page {
-
-    .page-header{
+    .page-header {
       padding-top: 4rem;
     }
     .page-body {
       .container {
-      
         .card {
-        margin: 1.5rem 0;
+          margin: 1.5rem 0;
           width: 100%;
           h2 {
             font-size: 1.5rem;
-            margin: .5rem 0;
+            margin: 0.5rem 0;
           }
-          .card-body{
+          .card-body {
             margin: 0.5rem;
           }
-            
         }
       }
     }
