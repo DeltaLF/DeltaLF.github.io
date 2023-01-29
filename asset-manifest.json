@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7583305a.css",
-    "main.js": "/static/js/main.76067e28.js",
+    "main.css": "/static/css/main.957dfcb6.css",
+    "main.js": "/static/js/main.32da9d71.js",
     "static/media/onlineCourse.jpg": "/static/media/onlineCourse.5f489f11ff3cfab14748.jpg",
     "static/media/me.jpg": "/static/media/me.2bc00e31c954f2b604e8.jpg",
     "static/media/complete_react.jpg": "/static/media/complete_react.82c5daa3a631b2297aec.jpg",
@@ -22,11 +22,11 @@
     "index.html": "/index.html",
     "static/media/iconmonstr-arrow-66.svg": "/static/media/iconmonstr-arrow-66.0c1b14a0a92f9039299a2a8b79c68d49.svg",
     "static/media/iconmonstr-arrow-65.svg": "/static/media/iconmonstr-arrow-65.fee13e32a766530415446a7e05626396.svg",
-    "main.7583305a.css.map": "/static/css/main.7583305a.css.map",
-    "main.76067e28.js.map": "/static/js/main.76067e28.js.map"
+    "main.957dfcb6.css.map": "/static/css/main.957dfcb6.css.map",
+    "main.32da9d71.js.map": "/static/js/main.32da9d71.js.map"
   },
   "entrypoints": [
-    "static/css/main.7583305a.css",
-    "static/js/main.76067e28.js"
+    "static/css/main.957dfcb6.css",
+    "static/js/main.32da9d71.js"
   ]
 }
