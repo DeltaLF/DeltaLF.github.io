@@ -3,7 +3,7 @@ import arrowPreviousSvg from "../../resources/svgs/iconmonstr-arrow-66.svg";
 
 export const arrowNext = (toPage) => {
   return (
-    <div className="arrow-next" style={{zIndex:10}}>
+    <div className="arrow-next" style={{ zIndex: 10 }}>
       <a href={toPage}>
         <img src={arrowNextSvg} alt="arrow" />
       </a>
@@ -13,7 +13,7 @@ export const arrowNext = (toPage) => {
 
 export const arrowPrevious = (toPage) => {
   return (
-    <div className="arrow-previous"  style={{zIndex:10}}>
+    <div className="arrow-previous" style={{ zIndex: 10 }}>
       <a href={toPage}>
         <img src={arrowPreviousSvg} alt="arrow" />
       </a>

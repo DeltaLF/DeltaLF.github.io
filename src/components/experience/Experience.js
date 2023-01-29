@@ -1,5 +1,5 @@
 import React from "react";
-import "./Experience.css";
+import "./Experience.scss";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -11,7 +11,7 @@ import { arrowNext, arrowPrevious } from "../share/guideArrow";
 class Experience extends React.Component {
   renderVerticalTimelineElement() {
     return experience.map(
-      ({ date,imgPath, title,jobTitle, jobDesc, skillList, icon }, index) => {
+      ({ date, imgPath, title, jobTitle, jobDesc, skillList, icon }, index) => {
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element"
@@ -20,27 +20,22 @@ class Experience extends React.Component {
             icon={<i className={icon}></i>}
             key={index}
           >
-
             <div className="vertical-timeline-element-header">
-               <div className="vertical-timeline-element-avatar">
-                 <img src={imgPath} alt={title} />
-               </div>
-               <div className="vertical-timeline-element-title">
-               <h3> {title}</h3>
-               <h5>{jobTitle}</h5>
-               </div>
+              <div className="vertical-timeline-element-avatar">
+                <img src={imgPath} alt={title} />
+              </div>
+              <div className="vertical-timeline-element-title">
+                <h3> {title}</h3>
+                <h5>{jobTitle}</h5>
+              </div>
             </div>
             <div className="vertical-timeline-element-description">
-             {jobDesc}
+              {jobDesc}
             </div>
             <div className="vertical-timeline-element-skill">
               <ol>
                 {skillList.map((skill, index) => {
-                  return (
-                    <li key={title + skill}>
-                        {skill}
-                    </li>
-                  );
+                  return <li key={title + skill}>{skill}</li>;
                 })}
               </ol>
             </div>

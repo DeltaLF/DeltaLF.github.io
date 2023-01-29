@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css";
+import "./About.scss";
 import { aboutPage } from "../../portfolio";
 import { arrowNext, arrowPrevious } from "../share/guideArrow";
 
@@ -22,20 +22,20 @@ class About extends React.Component {
   render() {
     return (
       <div id="about-page" className="about-page">
-          <div className="left">
-            <div className="left-header">
-              <h1>About</h1>
-            </div>
-            {aboutPage.aboutMe.map((line, index) => (
-              <p key={index}>{line}</p>
-            ))}
+        <div className="left">
+          <div className="left-header">
+            <h1>About</h1>
+          </div>
+          {aboutPage.aboutMe.map((line, index) => (
+            <p key={index}>{line}</p>
+          ))}
 
-              <h3>Skills:</h3>
-            <ol>{this.renderSkills()}</ol>
-          </div>
-          <div className="right" duration={2000}>
-            <img className="" src={aboutPage.portaitPath} alt="portrait" />
-          </div>
+          <h3>Skills:</h3>
+          <ol>{this.renderSkills()}</ol>
+        </div>
+        <div className="right" duration={2000}>
+          <img className="" src={aboutPage.portaitPath} alt="portrait" />
+        </div>
         {arrowPrevious("#")}
         {arrowNext("#experience-page")}
       </div>

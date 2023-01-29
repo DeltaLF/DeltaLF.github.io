@@ -1,7 +1,0 @@
-.certificate-page .page-body .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  grid-column-gap: 2rem; }
-
-.certificate-page .page-body .container .card .card-img img {
-  width: 100%; }

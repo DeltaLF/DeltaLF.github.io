@@ -1,5 +1,5 @@
 import React from "react";
-import "./Certificate.css";
+import "./Certificate.scss";
 import { certificates } from "../../portfolio";
 import { arrowPrevious } from "../share/guideArrow";
 

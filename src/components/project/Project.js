@@ -1,5 +1,5 @@
 import React from "react";
-import "./Project.css";
+import "./Project.scss";
 import { project } from "../../portfolio";
 import { arrowNext, arrowPrevious } from "../share/guideArrow";
 

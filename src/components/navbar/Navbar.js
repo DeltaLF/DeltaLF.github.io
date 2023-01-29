@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navbar.css";
+import "./Navbar.scss";
 import { myLogo } from "../../portfolio";
 
 class Navbar extends React.Component {
@@ -21,8 +21,7 @@ class Navbar extends React.Component {
     }
   }
   render() {
-    const { About, Experience, Project, Certificate } =
-      this.renderHeadText();
+    const { About, Experience, Project, Certificate } = this.renderHeadText();
     return (
       <div id="navbar-main" className="navbar-main">
         <div className="logo">
