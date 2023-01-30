@@ -2,6 +2,8 @@ import lyntics from "./resources/images/avatar/Lyntics.jpg";
 import fortinet from "./resources/images/avatar/Fortinet.jpg";
 import myLogo from "./resources/images/me/myLogo.svg";
 
+import leetcodeIcon from "./resources/images/media/leetcode-icon.jpg";
+
 import cert1 from "./resources/images/certificate/javascript_weired_part.jpg";
 import cert2 from "./resources/images/certificate/modern_react.jpg";
 import cert3 from "./resources/images/certificate/mysql_bootcamp.jpg";
@@ -34,8 +36,27 @@ const socialMediaLinks = [
   {
     name: "Github",
     link: "https://github.com/DeltaLF",
+    icon: <i className="fab fa-github media-link" alt="Github-icon"></i>,
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  },
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/patrickwctsai",
+    icon: (
+      <i
+        className="fab fa-linkedin media-link"
+        alt="LinkedIn-icon"
+        style={{ color: "#0a66c2" }}
+      ></i>
+    ),
+    fontAwesomeIcon: "fab fa-linkedin",
+    backgroundColor: "#0a66c2",
+  },
+  {
+    name: "leetcode",
+    link: "https://leetcode.com/DeltaLF/",
+    icon: <img src={leetcodeIcon} className="media-link" alt="leetcode-icon" />,
   },
 ];
 
