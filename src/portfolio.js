@@ -68,7 +68,7 @@ const header = {
 
 const aboutPage = {
   aboutMe: [
-    "I am a continuously learning frontend developer who used to be an anti-virus analyst. Through past self-taught experiences, I found that learning brings me achievement, confidence, and more possibilities. I love how I immerse in coding without awaring time flies. I love how I passionately discuss with people with the knowledge we possessed. I love how I feel while solving programming problems. I believe the integration of passion and work makes me better.",
+    "I am a continuously learning frontend developer who previously worked as an anti-virus analyst. Through self-taught experiences in the past, I have discovered that learning brings me achievements, confidence, and opens up new possibilities. I enjoy immersing myself in coding, often losing track of time. I am passionate about discussing and sharing knowledge with others. Solving programming problems is a source of satisfaction for me. I believe that combining my passion and work leads to personal growth and improvement.",
   ],
   portaitPath: portrait,
   softwareSkills: [
