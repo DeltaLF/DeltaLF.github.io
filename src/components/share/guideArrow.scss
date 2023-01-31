@@ -1,4 +1,9 @@
 .guide-arrow {
+  img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
   &:hover {
     transform: translateY(-5px);
 

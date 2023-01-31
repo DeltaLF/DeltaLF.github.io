@@ -12,7 +12,7 @@ class App extends React.Component {
     return (
       <div>
         <Navbar />
-        <Header />
+        {/* <Header /> */}
         <About />
         <Experience />
         <Project />

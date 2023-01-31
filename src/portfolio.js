@@ -60,13 +60,8 @@ const socialMediaLinks = [
   },
 ];
 
-const header = {
-  intro: "Hi, I'm Patrick Tsai, a React frontend developer",
-  description:
-    "I love to solve complicated frontend logic problems and take challenge!",
-};
-
-const aboutPage = {
+const intro = {
+  greet: ["Hi, I'm Patrick Tsai", "A React Frontend Developer!"],
   aboutMe: [
     "I am a continuously learning frontend developer who previously worked as an anti-virus analyst. Through self-taught experiences in the past, I have discovered that learning brings me achievements, confidence, and opens up new possibilities. I enjoy immersing myself in coding, often losing track of time. I am passionate about discussing and sharing knowledge with others. Solving programming problems is a source of satisfaction for me. I believe that combining my passion and work leads to personal growth and improvement.",
   ],
@@ -81,11 +76,14 @@ const aboutPage = {
       },
     },
     {
-      skillName: "ReactJS",
+      skillName: "React",
       fontAwesomeClassname: "simple-icons:react",
       style: {
         color: "#61DAFB",
       },
+    },
+    {
+      skillName: "Redux",
     },
     {
       skillName: "HTML",
@@ -99,27 +97,6 @@ const aboutPage = {
       fontAwesomeClassname: "fa-css3",
       style: {
         color: "#1572B6",
-      },
-    },
-    {
-      skillName: "NodeJS",
-      fontAwesomeClassname: "simple-icons:node-dot-js",
-      style: {
-        color: "#339933",
-      },
-    },
-    {
-      skillName: "NPM",
-      fontAwesomeClassname: "simple-icons:npm",
-      style: {
-        color: "#CB3837",
-      },
-    },
-    {
-      skillName: "MongoDB",
-      fontAwesomeClassname: "simple-icons:mongodb",
-      style: {
-        color: "#47A248",
       },
     },
     {
@@ -249,9 +226,8 @@ const certificates = [
 ];
 export {
   seo,
-  header,
+  intro,
   socialMediaLinks,
-  aboutPage,
   experience,
   project,
   certificates,
