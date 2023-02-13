@@ -212,7 +212,7 @@ span {
     .container {
       margin: 0 6rem 2rem 6rem;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
       grid-column-gap: 2rem;
       .card {
         color: black;

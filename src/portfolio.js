@@ -19,6 +19,7 @@ import cert11 from "./resources/images/certificate/Testing_React_with_Jest_and_R
 import project1 from "./resources/images/project/onlineCourse.jpg";
 import project2 from "./resources/images/project/videos.jpg";
 import project3 from "./resources/images/project/yelpCamp.jpg";
+import project4 from "./resources/images/project/frontend-stuff.jpg";
 
 import portrait from "./resources/images/me/me.jpg";
 
@@ -185,6 +186,14 @@ const experience = [
 ];
 
 const project = [
+  {
+    title: "Practice for frontend stuff",
+    imgPath: project4,
+    url: "https://deltalf.github.io/frontend-stuff/",
+    githubUrl: "https://github.com/DeltaLF/frontend-stuff",
+    projectDesc:
+      "consists of various frontend techniques for practicing purpose",
+  },
   {
     title: "Online Course MERN project",
     imgPath: project1,
