@@ -11,17 +11,17 @@ class Project extends React.Component {
           <div className="card" key={index}>
             <div className="card-img">
               <a href={url}>
-                <img src={imgPath} alt="project image" />
+                <img src={imgPath} alt={title} />
               </a>
             </div>
             <div className="card-body">
               <h2>{title}</h2>
-              <div>
-                <a href={url} className="card-btn">
-                  WebSite
+              <div className="icon-group">
+                <a href={url}>
+                  <i className="fa fa-browser media-link" alt="url-icon"></i>
                 </a>
-                <a href={githubUrl} className="card-btn">
-                  Github
+                <a href={githubUrl}>
+                  <i className="fab fa-github media-link" alt="Github-icon"></i>
                 </a>
               </div>
 

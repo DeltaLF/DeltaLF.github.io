@@ -1,0 +1,7 @@
+@mixin iconUrlHover {
+  &:hover {
+    transition: 0.15s;
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+}

@@ -1,3 +1,4 @@
+@import "../../scss/mixins";
 .project-page {
   min-height: 100vh;
   background-color: #3f382e;
@@ -6,6 +7,7 @@
     padding: 0;
     height: 25rem;
     overflow: hidden;
+    background-color: rgba($color: #000000, $alpha: 0);
 
     .card-img {
       margin: 0;
@@ -24,43 +26,19 @@
       }
     }
     .card-body {
+      background-color: rgba($color: #000000, $alpha: 0);
+      width: 80%;
       h2 {
+        color: #a8b090;
         font-size: 1.1rem;
       }
-      width: 90%;
-      div {
-        margin-top: 1rem;
+      .icon-group {
+        font-size: 2rem;
         display: flex;
-        justify-content: center;
-        .card-btn {
-          appearance: none;
-          background-color: #1a8338;
-          border: 1px solid rgba(27, 31, 35, 0.15);
-          border-radius: 6px;
-          box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
-          box-sizing: border-box;
-          color: #fff;
-          cursor: pointer;
-          display: inline-block;
-          font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
-            sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-          font-size: 14px;
-          font-weight: 600;
-          line-height: 20px;
-          padding: 6px 16px;
-          margin: 0 1rem;
-          position: relative;
-          text-align: center;
-          text-decoration: none;
-          user-select: none;
-          -webkit-user-select: none;
-          touch-action: manipulation;
-          vertical-align: middle;
-          white-space: nowrap;
-          text-decoration: none;
-          &:hover {
-            background-color: #2c974b;
-          }
+        justify-content: space-around;
+        a {
+          color: #a8b090;
+          @include iconUrlHover;
         }
       }
     }
@@ -92,6 +70,24 @@
   #root {
     .page-body > .container {
       margin: 0 2.5rem;
+      justify-items: center;
+    }
+    .card {
+      width: 80%;
+      .card-img {
+        .img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #root {
+    .page-body > .container {
+      margin: 0;
+      justify-items: center;
     }
   }
 }

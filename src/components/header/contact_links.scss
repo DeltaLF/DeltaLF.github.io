@@ -1,3 +1,4 @@
+@import "../../scss/mixins";
 .contact-links {
   width: 4rem;
   position: fixed;
@@ -13,11 +14,7 @@
     margin: 1rem 0;
     color: inherit;
     text-decoration: inherit;
-    &:hover {
-      transition: 0.15s;
-      transform: translateY(-5px);
-      cursor: pointer;
-    }
+    @include iconUrlHover;
   }
   .media-link {
     width: 100%;
