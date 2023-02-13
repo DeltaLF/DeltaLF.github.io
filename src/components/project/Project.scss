@@ -12,17 +12,11 @@
     .card-img {
       margin: 0;
       height: 65%;
+      overflow: hidden;
       img {
         margin: 0;
         height: 90%;
-        // width: 100%;
-        // min-height: 200px;
-        //  object-fit:cover;
-        &:hover {
-          background-color: black;
-          transform: scale(1.1);
-          transition: 0.5s;
-        }
+        @include imgUrlHover;
       }
     }
     .card-body {

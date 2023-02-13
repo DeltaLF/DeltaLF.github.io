@@ -5,12 +5,18 @@ import { arrowPrevious } from "../share/guideArrow";
 
 class Certificate extends React.Component {
   renderCertificate() {
-    return certificates.map((certificate, ind) => {
+    return certificates.map(({ title, imgPath, name, url }) => {
       return (
-        <div className="card" key={ind}>
-          <h2>{certificate.title}</h2>
+        <div className="card" key={name}>
+          <h2>{title}</h2>
           <div className="card-img">
-            <img src={certificate.imgPath} alt="certificate" />
+            {url ? (
+              <a href={url}>
+                <img src={imgPath} alt="certificate" />
+              </a>
+            ) : (
+              <img src={imgPath} alt="certificate" />
+            )}
           </div>
         </div>
       );

@@ -221,17 +221,62 @@ const project = [
 ];
 
 const certificates = [
-  { title: "Javascript", imgPath: cert1 },
-  { title: "Typescript", imgPath: cert10 },
-  { title: "React", imgPath: cert2 },
-  { title: "React", imgPath: cert8 },
-  { title: "React test", imgPath: cert11 },
-  { title: "MsySQL", imgPath: cert3 },
-  { title: "Full stack", imgPath: cert4 },
-  { title: "Full stack", imgPath: cert5 },
-  { title: "Algorithm", imgPath: cert6 },
-  { title: "Algorithm", imgPath: cert7 },
-  { title: "CSS", imgPath: cert9 },
+  {
+    title: "Javascript",
+    imgPath: cert1,
+    name: "JavaScript: Understanding the Weird Parts",
+    url: "https://www.udemy.com/certificate/UC-a4d846dc-dbbc-4e96-95ba-bcb364924534/",
+  },
+  {
+    title: "Typescript",
+    imgPath: cert10,
+    name: "Typescript: The Complete Developer's Guide",
+    url: "https://www.udemy.com/certificate/UC-7f5c2c30-6d3d-4f2a-943b-927bddecae26/",
+  },
+  { title: "React", imgPath: cert2, name: "Modern React with Redux", url: "" },
+  {
+    title: "React",
+    imgPath: cert8,
+    name: "Complete React Developer in 2023 (w/ Redux, Hooks, GraphQL)",
+    url: "",
+  },
+  {
+    title: "React test",
+    imgPath: cert11,
+    name: "Testing React with Jest and React Testing Library (RTL)",
+    url: "https://www.udemy.com/certificate/UC-3e2f1a5d-ca25-4eb0-94d4-e2c6ff9da642/",
+  },
+  {
+    title: "MsySQL",
+    imgPath: cert3,
+    name: "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert",
+    url: "",
+  },
+  {
+    title: "Full stack",
+    imgPath: cert4,
+    name: "2022web dev(HTML, CSS, JavaScript, React, SQL, Node, more)",
+    url: "https://www.udemy.com/certificate/UC-b547aace-e375-4879-a27f-63ff28bb225b/",
+  },
+  {
+    title: "Full stack",
+    imgPath: cert5,
+    name: "The Web Developer Bootcamp 2022",
+    url: "https://www.udemy.com/certificate/UC-d33293b6-4a8b-4fff-89de-520f4bf31b7f/",
+  },
+  { title: "Algorithm", imgPath: cert6, name: "JavaScript Algorithm", url: "" },
+  {
+    title: "Algorithm",
+    imgPath: cert7,
+    name: "JavaScript Algorithms and Data Structures Masterclass",
+    url: "https://www.udemy.com/certificate/UC-7a5e2d63-579a-4e9e-80a5-42175e629375/",
+  },
+  {
+    title: "CSS",
+    imgPath: cert9,
+    name: "Advanced CSS and Sass: Flexbox, Grid, Animations and More!",
+    url: "https://www.udemy.com/certificate/UC-44cffb7c-adcd-4dc8-ad47-fffd177c0517/",
+  },
 ];
 export {
   seo,
