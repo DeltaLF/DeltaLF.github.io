@@ -1,8 +1,14 @@
 @import "../../scss/mixins";
 .project-page {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
   background-color: #3f382e;
   color: white;
+  .page-body {
+    margin: auto 0;
+  }
+
   .page-body > .container > .card {
     padding: 0;
     height: 25rem;

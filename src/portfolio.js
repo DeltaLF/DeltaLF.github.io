@@ -152,7 +152,7 @@ const experience = [
         <li>300+ hours Udemy web developer classes</li>
         <li>3 deployed websites</li>
         <li>
-          100+
+          170+
           <a style={{ color: "#a8b090" }} href="https://leetcode.com/DeltaLF/">
             Leetcode
           </a>{" "}
