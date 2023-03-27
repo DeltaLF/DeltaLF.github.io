@@ -22,7 +22,7 @@ class Experience extends React.Component {
           >
             <div className="vertical-timeline-element-header">
               <div className="vertical-timeline-element-avatar">
-                <img src={imgPath} alt={title} />
+                <img src={imgPath} alt={title} loading="lazy" />
               </div>
               <div className="vertical-timeline-element-title">
                 <h3> {title}</h3>

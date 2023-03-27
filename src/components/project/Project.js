@@ -11,7 +11,7 @@ class Project extends React.Component {
           <div className="card" key={index}>
             <div className="card-img">
               <a href={url}>
-                <img src={imgPath} alt={title} />
+                <img src={imgPath} alt={title} loading="lazy" />
               </a>
             </div>
             <div className="card-body">

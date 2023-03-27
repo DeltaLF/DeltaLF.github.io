@@ -16,10 +16,10 @@ class Certificate extends React.Component {
                 aria-label={`link to Udemy certificate of class ${name}`}
                 href={url}
               >
-                <img src={imgPath} alt="certificate" />
+                <img src={imgPath} alt="certificate" loading="lazy" />
               </a>
             ) : (
-              <img src={imgPath} alt="certificate" />
+              <img src={imgPath} alt="certificate" loading="lazy" />
             )}
           </div>
         </div>
