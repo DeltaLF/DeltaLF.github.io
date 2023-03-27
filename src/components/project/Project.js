@@ -17,10 +17,13 @@ class Project extends React.Component {
             <div className="card-body">
               <h2>{title}</h2>
               <div className="icon-group">
-                <a href={url}>
+                <a href={url} aria-label={`check my ${title}`}>
                   <i className="fa fa-browser media-link" alt="url-icon"></i>
                 </a>
-                <a href={githubUrl}>
+                <a
+                  href={githubUrl}
+                  aria-label={`check the source code of my ${title}`}
+                >
                   <i className="fab fa-github media-link" alt="Github-icon"></i>
                 </a>
               </div>

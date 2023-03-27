@@ -40,6 +40,7 @@ const socialMediaLinks = [
     icon: <i className="fab fa-github media-link" alt="Github-icon"></i>,
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    ariaLabel: "link to my github homepage",
   },
   {
     name: "LinkedIn",
@@ -53,11 +54,13 @@ const socialMediaLinks = [
     ),
     fontAwesomeIcon: "fab fa-linkedin",
     backgroundColor: "#0a66c2",
+    ariaLabel: "link to my LinkedIn page",
   },
   {
     name: "leetcode",
     link: "https://leetcode.com/DeltaLF/",
     icon: <img src={leetcodeIcon} className="media-link" alt="leetcode-icon" />,
+    ariaLabel: "link to my leetcode page",
   },
 ];
 
@@ -153,7 +156,11 @@ const experience = [
         <li>3 deployed websites</li>
         <li>
           170+
-          <a style={{ color: "#a8b090" }} href="https://leetcode.com/DeltaLF/">
+          <a
+            aria-label="link to my leetcode page"
+            style={{ color: "#a8b090" }}
+            href="https://leetcode.com/DeltaLF/"
+          >
             Leetcode
           </a>{" "}
           continue working on...

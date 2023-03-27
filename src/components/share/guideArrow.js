@@ -5,8 +5,8 @@ import "./guideArrow.scss";
 export const arrowNext = (toPage) => {
   return (
     <div className="guide-arrow arrow-next" style={{ zIndex: 10 }}>
-      <a href={toPage}>
-        <img src={arrowNextSvg} alt="arrow" />
+      <a href={toPage} aria-label="go to next section">
+        <img src={arrowNextSvg} alt="arrow next" />
       </a>
     </div>
   );
@@ -15,8 +15,8 @@ export const arrowNext = (toPage) => {
 export const arrowPrevious = (toPage) => {
   return (
     <div className="guide-arrow arrow-previous" style={{ zIndex: 10 }}>
-      <a href={toPage}>
-        <img src={arrowPreviousSvg} alt="arrow" />
+      <a href={toPage} aria-label="go to previous section">
+        <img src={arrowPreviousSvg} alt="arrow previous" />
       </a>
     </div>
   );

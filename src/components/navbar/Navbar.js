@@ -25,23 +25,35 @@ class Navbar extends React.Component {
     return (
       <div id="navbar-main" className="navbar-main">
         <div className="logo">
-          <a href="#">
-            <img src={myLogo}></img>
-          </a>
+          <img alt="my personal logo" src={myLogo}></img>
         </div>
         <div className="navbar-list">
           <ul>
             <li>
-              <a href="#about-page">{About}</a>
+              <a aria-label={`link of ${About} page`} href="#about-page">
+                {About}
+              </a>
             </li>
             <li>
-              <a href="#experience-page">{Experience}</a>
+              <a
+                aria-label={`link of ${Experience} page`}
+                href="#experience-page"
+              >
+                {Experience}
+              </a>
             </li>
             <li>
-              <a href="#project-page">{Project}</a>
+              <a aria-label={`link of ${Project} page`} href="#project-page">
+                {Project}
+              </a>
             </li>
             <li>
-              <a href="#certificate-page">{Certificate}</a>
+              <a
+                aria-label={`link of ${Certificate} page`}
+                href="#certificate-page"
+              >
+                {Certificate}
+              </a>
             </li>
           </ul>
         </div>
