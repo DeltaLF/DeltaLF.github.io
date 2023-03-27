@@ -6,7 +6,6 @@ import { arrowPrevious } from "../share/guideArrow";
 class Certificate extends React.Component {
   renderCertificate() {
     return certificates.map(({ title, imgPath, name, url }) => {
-      console.log("#####", name);
       return (
         <div className="card" key={name}>
           <h2>{title}</h2>
@@ -16,10 +15,10 @@ class Certificate extends React.Component {
                 aria-label={`link to Udemy certificate of class ${name}`}
                 href={url}
               >
-                <img src={imgPath} alt="certificate" />
+                <img src={imgPath} alt="certificate" loading="lazy" />
               </a>
             ) : (
-              <img src={imgPath} alt="certificate" />
+              <img src={imgPath} alt="certificate" loading="lazy" />
             )}
           </div>
         </div>
