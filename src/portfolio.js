@@ -1,3 +1,4 @@
+import rakuten from "./resources/images/avatar/Rakuten.png";
 import lyntics from "./resources/images/avatar/Lyntics.jpg";
 import fortinet from "./resources/images/avatar/Fortinet.jpg";
 import myLogo from "./resources/images/me/myLogo.svg";
@@ -116,6 +117,50 @@ const intro = {
 
 const experience = [
   {
+    date: "2023.05 - current",
+    title: "Taiwan Rakuten Ichiba",
+    jobTitle: "Frontend developer",
+    imgPath: rakuten,
+    icon: "fab fa-react",
+    jobDesc: (
+      <ul>
+        <li>
+          Develop reusable and well-tested TypeScript React components within a
+          Storybook design system.
+        </li>
+        <li>
+          Implement server-side rendering (SSR) pages using React on Rails and
+          GraphQL, to improve page load times and SEO
+        </li>
+        <li>
+          Participate in maintaining and developing a React on Rails e-commerce
+          platform.
+        </li>
+        <li>
+          Optimize webpack configurations to separate and reduce bundle sizes.
+        </li>
+        <li>
+          Analyze Graylog logs to identify and resolve redundant 500 errors,
+          improving system stability and user experience.
+        </li>
+        <li>
+          Redesign the Apollo scheme to leverage the Apollo client cache
+          mechanism, ensuring efficient data fetching and management.
+        </li>
+        <li>Actively participate in code reviews to ensure code quality</li>
+      </ul>
+    ),
+    skillList: [
+      "React",
+      "typescript",
+      "Apollo GraphQL",
+      "Ruby on Rails",
+      "Storybook js",
+      "Webpack",
+      "Jenkins",
+    ],
+  },
+  {
     date: "2022.05 - 2022.12",
     title: "Lyntics",
     jobTitle: "Frontend developer",
@@ -155,7 +200,7 @@ const experience = [
         <li>300+ hours Udemy web developer classes</li>
         <li>3 deployed websites</li>
         <li>
-          170+
+          200+
           <a
             aria-label="link to my leetcode page"
             style={{ color: "#a8b090" }}
