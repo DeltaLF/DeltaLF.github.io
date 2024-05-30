@@ -216,7 +216,7 @@ const experience = [
   },
   {
     date: "2018.09 - 2022.04 ",
-    title: "Fortient",
+    title: "Fortinet",
     jobTitle: "Anti-Virus Analyst",
     imgPath: fortinet,
     icon: "fab fa-python",
