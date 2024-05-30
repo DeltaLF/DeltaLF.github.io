@@ -13,3 +13,15 @@
     transition: 0.5s;
   }
 }
+
+@mixin media-breakpoint-up($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-down($breakpoint) {
+  @media (max-width: ($breakpoint - 1px)) {
+    @content;
+  }
+}
