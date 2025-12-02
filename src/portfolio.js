@@ -1,3 +1,4 @@
+import appliedMaterials from "./resources/images/avatar/AppliedMaterials.png";
 import rakuten from "./resources/images/avatar/Rakuten.png";
 import lyntics from "./resources/images/avatar/Lyntics.jpg";
 import fortinet from "./resources/images/avatar/Fortinet.jpg";
@@ -66,7 +67,7 @@ const socialMediaLinks = [
 ];
 
 const intro = {
-  greet: ["Hi, I'm Patrick Tsai", "A React Frontend Developer!"],
+  greet: ["Hi, I'm Patrick Tsai", "A Fullstack Developer!"],
   aboutMe: [
     "I am a continuously learning frontend developer who previously worked as an anti-virus analyst. Through self-taught experiences in the past, I have discovered that learning brings me achievements, confidence, and opens up new possibilities. I enjoy immersing myself in coding, often losing track of time. I am passionate about discussing and sharing knowledge with others. Solving programming problems is a source of satisfaction for me. I believe that combining my passion and work leads to personal growth and improvement.",
   ],
@@ -117,7 +118,52 @@ const intro = {
 
 const experience = [
   {
-    date: "2023.05 - current",
+    date: "2024.07 - current",
+    title: "Applied Materials",
+    jobTitle: "Full Stack Developer",
+    imgPath: appliedMaterials, // Remember to import/define this variable at the top of your file
+    icon: "fab fa-angular", // Or "fab fa-docker" depending on which aspect you want to highlight
+    jobDesc: (
+      <ul>
+        <li>
+          Architected a containerized full-stack environment using Docker
+          Compose to orchestrate Spring Boot, PostgreSQL, and a complete
+          observability stack (Prometheus, Grafana, Loki).
+        </li>
+        <li>
+          Designed and developed the SIE tenant and pipeline management system
+          (20+ APIs, 10+ pages) from scratch, bridging product management gaps
+          by defining requirements and UI workflow.
+        </li>
+        <li>
+          Led the migration of report pages by creating a Proof of Concept (POC)
+          and implementing reusable Angular components to standardize code
+          structure and data fetching.
+        </li>
+        <li>
+          Modernized the frontend build process using multi-stage Dockerfiles
+          and custom Nginx configurations to serve static assets efficiently.
+        </li>
+        <li>
+          Maintained KlickKloud pipeline solutions and implemented alert
+          mechanisms for Debezium connectors to ensure data integrity.
+        </li>
+      </ul>
+    ),
+    skillList: [
+      "Angular",
+      "Spring Boot",
+      "Docker",
+      "PostgreSQL",
+      "Azure",
+      "Snowflake",
+      "Prometheus",
+      "Grafana",
+      "Nginx",
+    ],
+  },
+  {
+    date: "2023.05 - 2024.07",
     title: "Taiwan Rakuten Ichiba",
     jobTitle: "Frontend developer",
     imgPath: rakuten,
